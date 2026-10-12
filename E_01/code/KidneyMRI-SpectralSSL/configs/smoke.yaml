@@ -1,0 +1,11 @@
+_base_: base.yaml
+spectral_band:
+  enabled: true
+mean_teacher:
+  enabled: true
+repeat_tkv:
+  enabled: true
+optimizer:
+  epochs: 1
+runtime:
+  run_name: SMOKE_V2

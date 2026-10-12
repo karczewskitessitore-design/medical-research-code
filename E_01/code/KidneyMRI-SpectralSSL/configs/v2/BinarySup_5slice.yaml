@@ -1,0 +1,9 @@
+_base_: B0plus_5slice.yaml
+model:
+  out_channels: 2
+  options:
+    task: whole_kidney_binary
+    output_space: binary_union
+    inference: deterministic
+runtime:
+  run_name: V23_BinarySup_5slice

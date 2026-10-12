@@ -1,0 +1,5 @@
+_base_: unetpp.yaml
+model:
+  in_channels: 5
+runtime:
+  run_name: V21_unetpp_5slice

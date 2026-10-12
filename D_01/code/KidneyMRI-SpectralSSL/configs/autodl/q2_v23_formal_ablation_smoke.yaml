@@ -1,0 +1,32 @@
+name: kidneyband_reliable_ssl_q2_v2_3_formal_ablation_smoke_autodl_v1
+schema_version: 2
+output_root: /root/autodl-tmp/kidney/experiments/benchmarks
+proposed_method: V23_M1_CSD_Global_5slice
+
+config_overrides:
+  data:
+    root: /root/autodl-tmp/kidney/data/T2KidneyMRI
+    manifest: /root/autodl-tmp/kidney/data/T2KidneyMRI/audit/manifest.csv
+    folds: /root/autodl-tmp/kidney/data/T2KidneyMRI/splits/seed_20260802
+  optimizer:
+    epochs: 1
+  runtime:
+    output_root: /root/autodl-tmp/kidney/experiments
+    num_workers: 2
+    max_steps_per_epoch: 2
+    timeout_hours: 1
+    resume: false
+
+methods:
+  - {id: V23_BinarySup_5slice, config: ../v2/BinarySup_5slice.yaml, phases: [internal]}
+  - {id: V23_MeanTeacher_5slice, config: ../v2/MeanTeacher_5slice.yaml, phases: [internal]}
+  - {id: V23_M1_CSD_Global_5slice, config: ../v2/CSD_Global_5slice.yaml, phases: [internal]}
+
+phases:
+  internal:
+    split_seed: 20260802
+    folds: [0]
+    seeds: [20260810]
+
+label_efficiency:
+  enabled: false

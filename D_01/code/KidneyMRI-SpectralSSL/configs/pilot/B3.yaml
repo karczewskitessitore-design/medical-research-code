@@ -1,0 +1,10 @@
+_base_: ../base.yaml
+spectral_band:
+  enabled: true
+mean_teacher:
+  enabled: true
+repeat_tkv:
+  enabled: true
+runtime:
+  run_name: B3
+

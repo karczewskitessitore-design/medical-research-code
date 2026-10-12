@@ -1,0 +1,5 @@
+_base_: base.yaml
+model:
+  in_channels: 5
+runtime:
+  run_name: V2_B0plus_5slice

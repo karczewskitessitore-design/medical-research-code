@@ -1,0 +1,6 @@
+_base_: ../base.yaml
+spectral_band:
+  enabled: true
+runtime:
+  run_name: B1
+

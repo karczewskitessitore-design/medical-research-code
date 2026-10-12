@@ -1,0 +1,7 @@
+_base_: B0plus_5slice.yaml
+adaptive_band:
+  enabled: true
+spectral_disagreement:
+  enabled: true
+runtime:
+  run_name: KidneyBand_ReliableSSL_v2_1

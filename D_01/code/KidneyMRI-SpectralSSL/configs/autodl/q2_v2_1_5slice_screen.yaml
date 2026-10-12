@@ -1,0 +1,60 @@
+name: kidneyband_reliable_ssl_q2_v2_1_5slice_screen_autodl_fresh_v1
+schema_version: 2
+output_root: /root/autodl-tmp/kidney/experiments/benchmarks
+proposed_method: KidneyBand_ReliableSSL_v2_1
+
+config_overrides:
+  data:
+    root: /root/autodl-tmp/kidney/data/T2KidneyMRI
+    manifest: /root/autodl-tmp/kidney/data/T2KidneyMRI/audit/manifest.csv
+    folds: /root/autodl-tmp/kidney/data/T2KidneyMRI/splits/seed_20260802
+  runtime:
+    output_root: /root/autodl-tmp/kidney/experiments
+    num_workers: 2
+    resume: false
+
+expected_subjects: 60
+methods:
+  - id: V21_B0plus_5slice
+    config: ../v2/B0plus_5slice.yaml
+    family: Matched five-slice 2.5D U-Net
+    phases: [screen]
+  - id: V21_UABand_5slice
+    config: ../v2/UABand_5slice.yaml
+    family: Five-slice UABand-HT
+    phases: [screen]
+  - id: V21_CSD_5slice
+    config: ../v2/CSD_5slice.yaml
+    family: Five-slice CSD-MT
+    phases: [screen]
+  - id: KidneyBand_ReliableSSL_v2_1
+    config: ../v2/UABand_CSD_5slice.yaml
+    family: Five-slice UABand-HT plus CSD-MT
+    phases: [screen]
+
+phases:
+  screen:
+    split_seed: 20260802
+    folds: [0, 1]
+    seeds: [20260802]
+
+# This targeted development screen is matched on the selected five-slice
+# backbone. DZ-BiMorph is excluded because it failed the v2 preregistered
+# standalone repeatability threshold.
+screen_selection:
+  baseline_method: V21_B0plus_5slice
+  segmentation_modules:
+    UABand: V21_UABand_5slice
+    CSD: V21_CSD_5slice
+  repeat_module: null
+  full_method: KidneyBand_ReliableSSL_v2_1
+  full_reference_methods: [V21_UABand_5slice, V21_CSD_5slice]
+  stack_depth: 5
+  required_modules: [UABand, CSD]
+
+selection_rules:
+  segmentation_min_dice_gain: 0.005
+  segmentation_max_hd95_degradation_mm: 1.0
+  repeat_min_wcv_gain_percent: 0.5
+  repeat_max_dice_degradation: 0.005
+  full_max_degradation_from_best_pair: 0.003

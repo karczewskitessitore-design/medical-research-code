@@ -1,0 +1,19 @@
+_base_: ../base.yaml
+model:
+  name: cmmt_net
+  trainer: baseline_v2
+  channels: [32, 64, 128, 256, 512]
+  residual_units: 0
+  in_channels: 3
+  out_channels: 3
+  options:
+    dropout: 0.10
+    implementation: clean_room_core
+baseline_ssl:
+  enabled: true
+  mode: cmmt
+  weight: 1.0
+  ramp_epochs: 30
+runtime:
+  run_name: V2_cmmt
+

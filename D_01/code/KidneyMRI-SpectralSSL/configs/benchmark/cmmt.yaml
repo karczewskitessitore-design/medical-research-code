@@ -1,0 +1,28 @@
+_base_: ../base.yaml
+model:
+  name: cmmt_net
+  trainer: native
+  channels: [32, 64, 128, 256, 512]
+  residual_units: 0
+  in_channels: 3
+  out_channels: 1
+  options:
+    loss: dice_ce
+    dropout: 0.10
+    inference: deterministic
+    implementation: clean_room_core
+mean_teacher:
+  enabled: true
+  mode: cmmt
+  confidence_threshold: 0.80
+  ema_decay: 0.99
+  ramp_epochs: 20
+  weight: 1.0
+  noise_std: 0.10
+  cutmix_probability: 0.50
+  vat_xi: 0.001
+  vat_epsilon: 1.0
+  vat_weight: 0.10
+runtime:
+  run_name: cmmt
+  checkpoint: teacher

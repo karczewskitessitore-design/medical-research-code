@@ -1,0 +1,18 @@
+_base_: ../base.yaml
+model:
+  name: nnunetv2_3d_fullres
+  trainer: nnunetv2
+  channels: [32, 64]
+  residual_units: 0
+  in_channels: 1
+  out_channels: 3
+  options:
+    trainer_class: nnUNetTrainer
+    dataset_id: 502
+    configuration: 3d_fullres
+    disable_tta: false
+    implementation: official_nnunetv2_package
+optimizer:
+  epochs: 1000
+runtime:
+  run_name: V2_nnunet_3d_default

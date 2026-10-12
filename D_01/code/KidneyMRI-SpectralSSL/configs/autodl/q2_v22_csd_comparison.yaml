@@ -1,0 +1,175 @@
+name: kidneyband_reliable_ssl_q2_v2_2_csd_comparison_autodl_v1
+schema_version: 2
+output_root: /root/autodl-tmp/kidney/experiments/benchmarks
+proposed_method: KidneyBand_ReliableSSL_v2_2_CSD
+matched_baseline: V22_B0plus_5slice
+expected_subjects: 60
+
+development_selection:
+  source_suite: kidneyband_reliable_ssl_q2_v2_1_5slice_screen_autodl_fresh_v1
+  source_split_seed: 20260802
+  source_folds: [0, 1]
+  source_seed: 20260802
+  selected_method: V21_CSD_5slice
+  selected_reason: CSD passed the preregistered Dice and HD95 rules; UABand failed the Dice rule
+  observed:
+    baseline_dice: 0.880337
+    csd_dice: 0.888556
+    csd_dice_gain: 0.008219343367617205
+    csd_hd95_change_mm: -1.7294273366336101
+    uaband_keep: false
+    full_v21_formal_method_ready: false
+
+config_overrides:
+  data:
+    root: /root/autodl-tmp/kidney/data/T2KidneyMRI
+    manifest: /root/autodl-tmp/kidney/data/T2KidneyMRI/audit/manifest.csv
+    folds: /root/autodl-tmp/kidney/data/T2KidneyMRI/splits/seed_20260803
+  external_validation:
+    manifests:
+      chaos: /root/autodl-tmp/kidney/data/CHAOS/prepared/manifest.csv
+      amos: /root/autodl-tmp/kidney/data/AMOS22/prepared/manifest.csv
+  runtime:
+    output_root: /root/autodl-tmp/kidney/experiments
+    num_workers: 2
+    resume: false
+
+methods:
+  - id: V22_B0plus_5slice
+    config: ../v2/B0plus_5slice.yaml
+    family: Matched five-slice 2.5D U-Net
+    implementation_type: matched_clean_room
+    sci_baseline: false
+    external_reference: true
+    phases: [internal, external]
+  - id: KidneyBand_ReliableSSL_v2_2_CSD
+    config: ../v2/CSD_v22_5slice.yaml
+    family: KidneyBand-ReliableSSL v2.2 (CSD-only)
+    implementation_type: proposed
+    protocol_deviation: UABand and DZ-BiMorph were removed after failing preregistered development gates
+    sci_baseline: false
+    phases: [internal, external]
+  - id: daniel_unet
+    config: ../v2/baselines/daniel_unet.yaml
+    family: Daniel-UNet
+    journal: Magnetic Resonance in Medicine
+    doi: 10.1002/mrm.28768
+    license: clean-room reimplementation
+    implementation_type: clean_room
+    sci_baseline: true
+    primary_for_family: true
+    phases: [internal]
+  - id: damiano_mcd_plus
+    config: ../v2/baselines/damiano_mcd_plus.yaml
+    family: Damiano-UNet/DicePlus
+    journal: Medical Physics
+    doi: 10.1002/mp.17995
+    license: clean-room reimplementation
+    implementation_type: clean_room
+    protocol_deviation: MCD and TTA are evaluation modes of one trained model
+    sci_baseline: true
+    primary_for_family: true
+    phases: [internal]
+  - id: nnunet_3d_default
+    config: ../v2/baselines/nnunet_3d_default.yaml
+    family: nnU-Net v2 3D full-resolution
+    journal: Nature Methods
+    doi: 10.1038/s41592-020-01008-z
+    official_code: https://github.com/MIC-DKFZ/nnUNet
+    license: Apache-2.0
+    implementation_type: official_package
+    sci_baseline: true
+    primary_for_family: true
+    nnunet_official_3d: true
+    external_reference: true
+    phases: [internal, external]
+  - id: unetpp_5slice
+    config: ../v2/baselines/unetpp_5slice.yaml
+    family: UNet++ matched five-slice
+    journal: IEEE Transactions on Medical Imaging
+    doi: 10.1109/TMI.2019.2959609
+    implementation_type: clean_room_matched_input
+    sci_baseline: true
+    primary_for_family: true
+    phases: [internal]
+  - id: tcsm_5slice
+    config: ../v2/baselines/tcsm_5slice.yaml
+    family: TCSM matched five-slice
+    journal: IEEE Transactions on Neural Networks and Learning Systems
+    doi: 10.1109/TNNLS.2020.2995319
+    implementation_type: clean_room_matched_input
+    sci_baseline: true
+    primary_for_family: true
+    strong_semisupervised: true
+    phases: [internal]
+  - id: cmmt_5slice
+    config: ../v2/baselines/cmmt_5slice.yaml
+    family: CMMT-Net matched five-slice
+    journal: Medical Image Analysis
+    doi: 10.1016/j.media.2024.103302
+    implementation_type: clean_room_core_matched_input
+    sci_baseline: true
+    primary_for_family: true
+    strong_semisupervised: true
+    phases: [internal]
+  - id: frcnet_5slice
+    config: ../v2/baselines/frcnet_5slice.yaml
+    family: FRCNet matched five-slice proxy
+    venue: MICCAI 2024
+    doi: 10.1007/978-3-031-72111-3_29
+    implementation_type: clean_room_proxy
+    protocol_deviation: output-level FDC/MRSC proxy; not an official reproduction
+    comparison_baseline: true
+    sci_baseline: false
+    primary_for_family: true
+    strong_semisupervised: true
+    phases: [internal]
+  - id: semi_urf_5slice
+    config: ../v2/baselines/semi_urf_5slice.yaml
+    family: Semi-URF matched five-slice proxy
+    journal: IEEE Journal of Biomedical and Health Informatics
+    doi: 10.1109/JBHI.2026.3690043
+    official_code: https://github.com/senseiyang/Semi-URF
+    implementation_type: clean_room_proxy
+    protocol_deviation: output-level UDAT/Haar-boundary proxy; not the official full method
+    sci_baseline: true
+    primary_for_family: true
+    strong_semisupervised: true
+    external_reference: true
+    phases: [internal, external]
+  - id: randdg_5slice
+    config: ../v2/baselines/randdg_5slice.yaml
+    family: RandDG matched five-slice proxy
+    journal: Medical Physics
+    doi: 10.1002/mp.70118
+    implementation_type: clean_room_proxy
+    protocol_deviation: input-level ULoFT proxy; not the official GUNet feature implementation
+    sci_baseline: true
+    primary_for_family: true
+    external_reference: true
+    phases: [internal, external]
+
+phases:
+  internal:
+    split_seed: 20260803
+    folds: [0, 1, 2, 3, 4]
+    seeds: [20260811, 20260812, 20260813]
+  external:
+    datasets: [chaos_t2_spir, amos22_mri]
+    ensemble_folds: [0, 1, 2, 3, 4]
+    seeds: [20260811, 20260812, 20260813]
+
+label_efficiency:
+  enabled: false
+
+q2_gate:
+  internal_min_dice: 0.88
+  internal_min_effect: 0.01
+  tkv_max_relative_error: 0.10
+  repeat_max_wcv_percent: 4.0
+  repeat_max_dice_tradeoff: 0.005
+  external_noninferiority_margin: -0.01
+  full_label_min_dice: 0.90
+  bootstrap_draws: 10000
+  permutation_draws: 100000
+

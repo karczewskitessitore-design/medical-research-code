@@ -1,0 +1,11 @@
+_base_: CSD_5slice.yaml
+model:
+  options:
+    task: bilateral_3class
+    output_space: bilateral_3class
+    inference: deterministic
+spectral_disagreement:
+  enabled: true
+  loss_mode: global_uniform
+runtime:
+  run_name: V23_M1_CSD_Global_5slice

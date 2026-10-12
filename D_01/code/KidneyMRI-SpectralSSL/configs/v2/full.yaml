@@ -1,0 +1,9 @@
+_base_: base.yaml
+adaptive_band:
+  enabled: true
+spectral_disagreement:
+  enabled: true
+repeat_morphometry:
+  enabled: true
+runtime:
+  run_name: KidneyBand_ReliableSSL_v2

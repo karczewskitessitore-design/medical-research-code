@@ -1,0 +1,60 @@
+data:
+  root: "D:/30 医学论文/01/data/T2KidneyMRI"
+  manifest: "D:/30 医学论文/01/data/T2KidneyMRI/audit/manifest.csv"
+  folds: "D:/30 医学论文/01/data/T2KidneyMRI/splits/seed_20260802"
+  image_size: [256, 256]
+  clip_percentiles: [0.5, 99.5]
+split:
+  labeled_fraction: 0.25
+  fold: 0
+  seed: 20260802
+model:
+  name: monai_unet
+  trainer: native
+  channels: [32, 64, 128, 256, 512]
+  residual_units: 2
+  in_channels: 3
+  out_channels: 1
+  options:
+    loss: dice_ce
+    inference: deterministic
+spectral_band:
+  enabled: false
+  angles: 180
+  width_fraction: 0.25
+  weight: 0.05
+mean_teacher:
+  enabled: false
+  mode: frequency
+  center_fraction: 0.08
+  base_keep_rate: 0.70
+  radial_power: 4
+  confidence_threshold: 0.80
+  ema_decay: 0.99
+  ramp_epochs: 20
+  weight: 1.0
+repeat_tkv:
+  enabled: false
+  weight: 0.02
+  epsilon_ml: 0.001
+  ramp_epochs: 20
+  steps_per_epoch: 1
+optimizer:
+  name: AdamW
+  learning_rate: 0.001
+  weight_decay: 0.00001
+  epochs: 100
+  batch_size: 8
+  gradient_clip: 1.0
+runtime:
+  output_root: "D:/30 医学论文/01/experiments/KidneyMRI-SpectralSSL"
+  run_name: B0
+  amp: true
+  num_workers: 0
+  heartbeat_seconds: 60
+  stall_minutes: 20
+  timeout_hours: 12
+  device: auto
+  cache_volumes: true
+  checkpoint: teacher
+  phase: pilot

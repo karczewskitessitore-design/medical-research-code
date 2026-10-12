@@ -1,0 +1,23 @@
+_base_: ../base.yaml
+model:
+  name: tcsm_unet
+  trainer: native
+  channels: [32, 64, 128, 256, 512]
+  residual_units: 2
+  in_channels: 3
+  out_channels: 1
+  options:
+    loss: dice_ce
+    inference: deterministic
+    implementation: clean_room
+mean_teacher:
+  enabled: true
+  mode: tcsm
+  confidence_threshold: 0.80
+  ema_decay: 0.99
+  ramp_epochs: 20
+  weight: 1.0
+runtime:
+  run_name: tcsm
+  checkpoint: teacher
+

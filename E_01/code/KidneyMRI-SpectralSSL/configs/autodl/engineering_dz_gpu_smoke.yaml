@@ -1,0 +1,10 @@
+_base_: ../v2/engineering_dz_gpu_smoke.yaml
+data:
+  root: /root/autodl-tmp/kidney/data/T2KidneyMRI
+  manifest: /root/autodl-tmp/kidney/data/T2KidneyMRI/audit/manifest.csv
+  folds: /root/autodl-tmp/kidney/data/T2KidneyMRI/splits/seed_20260802
+runtime:
+  output_root: /root/autodl-tmp/kidney/experiments/engineering_fresh
+  run_name: V2_DZ_GPU_BF16_autodl_fresh_smoke
+  num_workers: 2
+  resume: false

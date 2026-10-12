@@ -1,0 +1,19 @@
+_base_: ../base.yaml
+model:
+  name: monai_unet
+  trainer: baseline_v2
+  channels: [32, 64, 128, 256, 512]
+  residual_units: 2
+  in_channels: 3
+  out_channels: 3
+  options:
+    implementation: clean_room_output_level_fdc_mrsc
+    protocol_deviation: author_code_unavailable_on_official_paper_page
+baseline_ssl:
+  enabled: true
+  mode: frcnet
+  weight: 1.0
+  ramp_epochs: 30
+runtime:
+  run_name: V2_frcnet
+

@@ -1,0 +1,41 @@
+name: kidneyband_reliable_ssl_q2_v2_1_comparison_smoke_autodl_v1
+schema_version: 2
+output_root: /root/autodl-tmp/kidney/experiments/benchmarks
+proposed_method: KidneyBand_ReliableSSL_v2_1
+matched_baseline: V21_B0plus_5slice
+expected_subjects: 60
+
+config_overrides:
+  data:
+    root: /root/autodl-tmp/kidney/data/T2KidneyMRI
+    manifest: /root/autodl-tmp/kidney/data/T2KidneyMRI/audit/manifest.csv
+    folds: /root/autodl-tmp/kidney/data/T2KidneyMRI/splits/seed_20260802
+  optimizer:
+    epochs: 1
+  runtime:
+    output_root: /root/autodl-tmp/kidney/experiments
+    num_workers: 2
+    max_steps_per_epoch: 2
+    timeout_hours: 1
+    resume: false
+
+methods:
+  - {id: V21_B0plus_5slice, config: ../v2/B0plus_5slice.yaml, phases: [internal]}
+  - {id: KidneyBand_ReliableSSL_v2_1, config: ../v2/UABand_CSD_5slice.yaml, phases: [internal]}
+  - {id: daniel_unet, config: ../v2/baselines/daniel_unet.yaml, phases: [internal]}
+  - {id: damiano_mcd_plus, config: ../v2/baselines/damiano_mcd_plus.yaml, phases: [internal]}
+  - {id: unetpp_5slice, config: ../v2/baselines/unetpp_5slice.yaml, phases: [internal]}
+  - {id: tcsm_5slice, config: ../v2/baselines/tcsm_5slice.yaml, phases: [internal]}
+  - {id: cmmt_5slice, config: ../v2/baselines/cmmt_5slice.yaml, phases: [internal]}
+  - {id: frcnet_5slice, config: ../v2/baselines/frcnet_5slice.yaml, phases: [internal]}
+  - {id: semi_urf_5slice, config: ../v2/baselines/semi_urf_5slice.yaml, phases: [internal]}
+  - {id: randdg_5slice, config: ../v2/baselines/randdg_5slice.yaml, phases: [internal]}
+
+phases:
+  internal:
+    split_seed: 20260802
+    folds: [0]
+    seeds: [20260810]
+
+label_efficiency:
+  enabled: false

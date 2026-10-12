@@ -1,0 +1,8 @@
+_base_: ../base.yaml
+spectral_band:
+  enabled: true
+mean_teacher:
+  enabled: true
+runtime:
+  run_name: B2
+

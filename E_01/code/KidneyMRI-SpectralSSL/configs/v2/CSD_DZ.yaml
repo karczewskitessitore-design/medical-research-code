@@ -1,0 +1,7 @@
+_base_: base.yaml
+spectral_disagreement:
+  enabled: true
+repeat_morphometry:
+  enabled: true
+runtime:
+  run_name: V2_CSD_DZ

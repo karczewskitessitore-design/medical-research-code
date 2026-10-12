@@ -1,0 +1,90 @@
+name: sci_fair_comparison_v1
+output_root: "D:/30 医学论文/01/experiments/KidneyMRI-SpectralSSL/benchmarks"
+proposed_method: B2
+expected_subjects: 60
+methods:
+  - id: B0
+    config: ../pilot/B0.yaml
+    family: Internal 2.5D U-Net
+    sci_baseline: false
+    phases: [dev, confirmatory]
+  - id: B1
+    config: ../pilot/B1.yaml
+    family: KidneyBand ablation
+    sci_baseline: false
+    phases: [dev]
+  - id: B2
+    config: ../pilot/B2.yaml
+    family: KidneyBand-SSL
+    sci_baseline: false
+    phases: [dev, confirmatory]
+  - id: B3_TKV
+    config: ../pilot/B3.yaml
+    family: KidneyBand-SSL-TKV
+    sci_baseline: false
+    phases: [dev, confirmatory]
+    tkv_weights: [0.002, 0.005, 0.01, 0.02]
+    tkv_lexicographic: true
+  - id: daniel_unet
+    config: daniel_unet.yaml
+    family: Daniel-UNet
+    journal: Magnetic Resonance in Medicine
+    doi: 10.1002/mrm.28768
+    sci_baseline: true
+    primary_for_family: true
+  - id: damiano_mcd_plus
+    config: damiano_mcd_plus.yaml
+    family: Damiano-UNet/DicePlus
+    journal: Medical Physics
+    doi: 10.1002/mp.17995
+    sci_baseline: true
+    primary_for_family: true
+  - id: nnunet_100
+    config: nnunet_100.yaml
+    family: nnU-Net v2
+    journal: Nature Methods
+    doi: 10.1038/s41592-020-01008-z
+    sci_baseline: true
+    primary_for_family: false
+    phases: [dev]
+    learning_rates: [0.001]
+  - id: nnunet_default
+    config: nnunet_default.yaml
+    family: nnU-Net v2
+    journal: Nature Methods
+    doi: 10.1038/s41592-020-01008-z
+    sci_baseline: true
+    primary_for_family: true
+    phases: [confirmatory]
+    fixed_learning_rate: 0.001
+  - id: unetpp
+    config: unetpp.yaml
+    family: UNet++
+    journal: IEEE Transactions on Medical Imaging
+    doi: 10.1109/TMI.2019.2959609
+    sci_baseline: true
+    primary_for_family: true
+  - id: tcsm
+    config: tcsm.yaml
+    family: TCSM
+    journal: IEEE Transactions on Neural Networks and Learning Systems
+    doi: 10.1109/TNNLS.2020.2995319
+    sci_baseline: true
+    primary_for_family: true
+  - id: cmmt
+    config: cmmt.yaml
+    family: CMMT-Net
+    journal: Medical Image Analysis
+    doi: 10.1016/j.media.2024.103302
+    sci_baseline: true
+    primary_for_family: true
+phases:
+  dev:
+    split_seed: 20260802
+    fold: 0
+    seed: 20260802
+    learning_rates: [0.0003, 0.001]
+  confirmatory:
+    split_seed: 20260803
+    folds: [0, 1, 2, 3, 4]
+    seeds: [20260811, 20260812, 20260813]

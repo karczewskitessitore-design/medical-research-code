@@ -1,0 +1,5 @@
+_base_: cmmt.yaml
+model:
+  in_channels: 5
+runtime:
+  run_name: V21_cmmt_5slice

@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+.env.*
+*.pem
+*.key
+*.dcm
+*.nii
+*.nii.gz
+*.pt
+*.pth
+*.ckpt

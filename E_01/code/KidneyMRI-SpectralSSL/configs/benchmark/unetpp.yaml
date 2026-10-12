@@ -1,0 +1,17 @@
+_base_: ../base.yaml
+model:
+  name: unetpp
+  trainer: native
+  channels: [32, 64, 128, 256, 512]
+  residual_units: 0
+  in_channels: 3
+  out_channels: 1
+  options:
+    loss: dice_ce
+    deep_supervision: true
+    inference: deterministic
+    implementation: clean_room
+runtime:
+  run_name: unetpp
+  checkpoint: student
+

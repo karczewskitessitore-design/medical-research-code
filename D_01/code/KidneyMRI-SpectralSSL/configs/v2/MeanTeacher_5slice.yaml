@@ -1,0 +1,13 @@
+_base_: B0plus_5slice.yaml
+model:
+  options:
+    task: bilateral_3class
+    output_space: bilateral_3class
+    inference: deterministic
+baseline_ssl:
+  enabled: true
+  mode: mean_teacher
+  weight: 1.0
+  ramp_epochs: 30
+runtime:
+  run_name: V23_MeanTeacher_5slice

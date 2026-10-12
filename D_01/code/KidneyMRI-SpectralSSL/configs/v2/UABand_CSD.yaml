@@ -1,0 +1,7 @@
+_base_: base.yaml
+adaptive_band:
+  enabled: true
+spectral_disagreement:
+  enabled: true
+runtime:
+  run_name: V2_UABand_CSD

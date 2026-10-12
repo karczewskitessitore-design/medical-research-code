@@ -1,0 +1,20 @@
+_base_: ../base.yaml
+model:
+  name: monai_unet
+  trainer: baseline_v2
+  channels: [32, 64, 128, 256, 512]
+  residual_units: 2
+  in_channels: 3
+  out_channels: 3
+  options:
+    implementation: clean_room_input_level_ULoFT_proxy
+    protocol_deviation: GUNet_feature_ULoFT_replaced_by_same_backbone_input_ULoFT_for_budget_parity
+baseline_ssl:
+  enabled: true
+  mode: randdg
+  weight: 1.0
+  ramp_epochs: 30
+  low_frequency_fraction: 0.10
+runtime:
+  run_name: V2_randdg
+

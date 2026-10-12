@@ -1,0 +1,74 @@
+name: kidneyband_reliable_ssl_q2_v2_3_formal_ablation_autodl_v1
+schema_version: 2
+output_root: /root/autodl-tmp/kidney/experiments/benchmarks
+proposed_method: KidneyBand_ReliableSSL_v2_2_CSD
+matched_baseline: V22_B0plus_5slice
+expected_subjects: 60
+
+prior_results:
+  archive: /root/autodl-tmp/kidney/backups/comparison_v22_csd_internal_compact_20260822T221119Z.tar.gz
+  sha256: 369f6788b5493c5adb4dd76cc8c657e683b65144ac3cd939f7ba9832fa2fec96
+  methods: [V22_B0plus_5slice, KidneyBand_ReliableSSL_v2_2_CSD]
+
+config_overrides:
+  data:
+    root: /root/autodl-tmp/kidney/data/T2KidneyMRI
+    manifest: /root/autodl-tmp/kidney/data/T2KidneyMRI/audit/manifest.csv
+    folds: /root/autodl-tmp/kidney/data/T2KidneyMRI/splits/seed_20260803
+  runtime:
+    output_root: /root/autodl-tmp/kidney/experiments
+    num_workers: 2
+    resume: false
+
+methods:
+  - id: V23_BinarySup_5slice
+    config: ../v2/BinarySup_5slice.yaml
+    family: Binary whole-kidney supervised ablation
+    implementation_type: matched_component_ablation
+    components: {M1: false, M2: false, M3: false}
+    phases: [internal]
+  - id: V22_B0plus_5slice
+    config: ../v2/B0plus_5slice.yaml
+    family: Bilateral supervised B0+ reference
+    implementation_type: locked_prior_result
+    components: {M1: false, M2: false, M3: true}
+    phases: []
+  - id: V23_MeanTeacher_5slice
+    config: ../v2/MeanTeacher_5slice.yaml
+    family: Global Mean Teacher control
+    implementation_type: matched_component_control
+    components: {M1: false, M2: false, M3: true}
+    phases: [internal]
+  - id: V23_M1_CSD_Global_5slice
+    config: ../v2/CSD_Global_5slice.yaml
+    family: Complementary spectral views with uniform global consistency
+    implementation_type: matched_component_ablation
+    components: {M1: true, M2: false, M3: true}
+    phases: [internal]
+  - id: KidneyBand_ReliableSSL_v2_2_CSD
+    config: ../v2/CSD_v22_5slice.yaml
+    family: Full CSD-MT reference
+    implementation_type: locked_prior_result
+    components: {M1: true, M2: true, M3: true}
+    phases: []
+
+phases:
+  internal:
+    split_seed: 20260803
+    folds: [0, 1, 2, 3, 4]
+    seeds: [20260811, 20260812, 20260813]
+
+label_efficiency:
+  enabled: false
+
+formal_ablation:
+  primary_endpoint: subject_level_dice
+  independent_unit: subject_after_acquisition_and_seed_averaging
+  bootstrap_draws: 10000
+  permutation_draws: 100000
+  multiplicity: Holm
+  contrasts:
+    - {id: M3, minuend: V22_B0plus_5slice, subtrahend: V23_BinarySup_5slice}
+    - {id: MT_control, minuend: V23_MeanTeacher_5slice, subtrahend: V22_B0plus_5slice}
+    - {id: M1, minuend: V23_M1_CSD_Global_5slice, subtrahend: V23_MeanTeacher_5slice}
+    - {id: M2, minuend: KidneyBand_ReliableSSL_v2_2_CSD, subtrahend: V23_M1_CSD_Global_5slice}

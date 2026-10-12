@@ -1,0 +1,18 @@
+_base_: full.yaml
+data:
+  image_size: [64, 64]
+repeat_morphometry:
+  enabled: true
+  start_epoch: 1
+optimizer:
+  epochs: 1
+  batch_size: 2
+  warmup_epochs: 1
+runtime:
+  output_root: "D:/30 医学论文/01/experiments/KidneyMRI-SpectralSSL-v2/engineering"
+  run_name: V2_DZ_GPU_BF16_smoke
+  precision: bf16
+  device: cuda
+  cache_volumes: false
+  max_steps_per_epoch: 20
+  resume: false

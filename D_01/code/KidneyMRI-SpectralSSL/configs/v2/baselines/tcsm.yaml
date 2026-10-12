@@ -1,0 +1,18 @@
+_base_: ../base.yaml
+model:
+  name: tcsm_unet
+  trainer: baseline_v2
+  channels: [32, 64, 128, 256, 512]
+  residual_units: 2
+  in_channels: 3
+  out_channels: 3
+  options:
+    implementation: clean_room
+baseline_ssl:
+  enabled: true
+  mode: tcsm
+  weight: 1.0
+  ramp_epochs: 30
+runtime:
+  run_name: V2_tcsm
+

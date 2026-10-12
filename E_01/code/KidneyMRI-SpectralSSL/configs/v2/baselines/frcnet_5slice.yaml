@@ -1,0 +1,5 @@
+_base_: frcnet.yaml
+model:
+  in_channels: 5
+runtime:
+  run_name: V21_frcnet_5slice

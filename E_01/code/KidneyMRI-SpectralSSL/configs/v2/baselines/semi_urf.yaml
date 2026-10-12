@@ -1,0 +1,19 @@
+_base_: ../base.yaml
+model:
+  name: monai_unet
+  trainer: baseline_v2
+  channels: [32, 64, 128, 256, 512]
+  residual_units: 2
+  in_channels: 3
+  out_channels: 3
+  options:
+    implementation: clean_room_abstract_level_adapter
+    protocol_deviation: output_level_UDAT_and_Haar_boundary_proxy_for_BUCE_FEFF
+baseline_ssl:
+  enabled: true
+  mode: semi_urf
+  weight: 1.0
+  ramp_epochs: 30
+runtime:
+  run_name: V2_semi_urf
+

@@ -1,0 +1,17 @@
+_base_: ../base.yaml
+model:
+  name: damiano_unet
+  trainer: native_v2
+  channels: [32, 64, 128, 256, 512, 1024]
+  residual_units: 0
+  in_channels: 1
+  out_channels: 3
+  options:
+    loss: dice_plus
+    dropout: 0.25
+    inference: mcd_tta_sensitivity
+    inference_modes: [deterministic, mcd, tta]
+    inference_samples: 20
+    implementation: clean_room
+runtime:
+  run_name: V2_damiano_mcd_plus

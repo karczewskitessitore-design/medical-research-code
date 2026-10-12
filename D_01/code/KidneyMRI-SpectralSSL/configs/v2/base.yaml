@@ -1,0 +1,104 @@
+schema_version: 2
+data:
+  root: "D:/30 医学论文/01/data/T2KidneyMRI"
+  manifest: "D:/30 医学论文/01/data/T2KidneyMRI/audit/manifest.csv"
+  folds: "D:/30 医学论文/01/data/T2KidneyMRI/splits/seed_20260802"
+  image_size: [256, 256]
+  clip_percentiles: [0.5, 99.5]
+split:
+  labeled_fraction: 0.25
+  fold: 0
+  seed: 20260802
+model:
+  name: monai_unet
+  trainer: native_v2
+  channels: [32, 64, 128, 256, 512]
+  residual_units: 2
+  in_channels: 3
+  out_channels: 3
+  options:
+    task: bilateral_3class
+    inference: deterministic
+bilateral_labels:
+  enabled: true
+  ras_lr_axis: 0
+  minimum_side_fraction: 0.20
+  minimum_two_component_fraction: 0.95
+augmentation:
+  enabled: true
+  lr_flip_probability: 0.5
+  rotation_degrees: 15.0
+  scale_min: 0.9
+  scale_max: 1.1
+  translation_fraction: 0.10
+  gamma_min: 0.7
+  gamma_max: 1.5
+  contrast_min: 0.8
+  contrast_max: 1.2
+  bias_strength: 0.3
+  noise_std: 0.03
+adaptive_band:
+  enabled: false
+  angles: 180
+  width_fraction: 0.25
+  uniform_mixture: 0.20
+  temperature: 0.50
+  weight: 0.05
+spectral_disagreement:
+  enabled: false
+  center_fraction: 0.08
+  base_keep_rate: 0.70
+  radial_power: 4
+  boundary_width: 5
+  boundary_weight: 0.20
+  weight: 1.0
+  ema_decay: 0.99
+  ramp_epochs: 30
+repeat_morphometry:
+  enabled: false
+  start_epoch: 30
+  cv_thresholds: [0.05, 0.05, 0.04]
+  anchor_weight: 0.10
+  weight: 0.01
+baseline_ssl:
+  enabled: false
+  mode: none
+  weight: 1.0
+  ramp_epochs: 30
+external_validation:
+  datasets: [chaos_t2_spir, amos22_mri]
+  source_only: true
+  allow_target_tuning: false
+  manifests:
+    chaos: "D:/30 医学论文/01/data/CHAOS/prepared/manifest.csv"
+    amos: "D:/30 医学论文/01/data/AMOS22/prepared/manifest.csv"
+# Legacy blocks remain explicit so v1 configurations and loaders stay compatible.
+spectral_band:
+  enabled: false
+mean_teacher:
+  enabled: false
+repeat_tkv:
+  enabled: false
+optimizer:
+  name: AdamW
+  learning_rate: 0.0003
+  minimum_learning_rate: 0.000001
+  weight_decay: 0.00001
+  warmup_epochs: 5
+  epochs: 150
+  batch_size: 8
+  gradient_clip: 1.0
+runtime:
+  output_root: "D:/30 医学论文/01/experiments/KidneyMRI-SpectralSSL-v2"
+  run_name: V2_B0plus
+  precision: bf16
+  num_workers: 0
+  heartbeat_seconds: 60
+  stall_minutes: 20
+  timeout_hours: 12
+  device: auto
+  cache_volumes: true
+  checkpoint: teacher
+  phase: screen
+  resume: false
+  max_steps_per_epoch: null

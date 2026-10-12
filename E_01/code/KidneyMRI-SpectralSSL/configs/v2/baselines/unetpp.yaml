@@ -1,0 +1,15 @@
+_base_: ../base.yaml
+model:
+  name: unetpp
+  trainer: native_v2
+  channels: [32, 64, 128, 256, 512]
+  residual_units: 0
+  in_channels: 3
+  out_channels: 3
+  options:
+    loss: dice_ce
+    deep_supervision: true
+    implementation: clean_room
+runtime:
+  run_name: V2_unetpp
+
