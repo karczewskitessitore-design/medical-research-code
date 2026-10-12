@@ -1,0 +1,98 @@
+{
+  "repository_public": true,
+  "remote_checksums_verified": true,
+  "categories": {
+    "image_data": {
+      "source_files": 20924,
+      "unique_files": 9558,
+      "source_bytes": 103125234303,
+      "unique_bytes": 51562623483,
+      "release_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/tag/research-assets-20261012-image-data-v2",
+      "state": "published"
+    },
+    "model_weights": {
+      "source_files": 1138,
+      "unique_files": 975,
+      "source_bytes": 87776137348,
+      "unique_bytes": 80322507346,
+      "release_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/tag/research-assets-20261012-model-weights-v2",
+      "state": "published"
+    },
+    "environment": {
+      "source_files": 124181,
+      "unique_files": 64615,
+      "source_bytes": 15826638513,
+      "unique_bytes": 8046768795,
+      "release_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/tag/research-assets-20261012-environment-v2",
+      "state": "published"
+    }
+  },
+  "excluded_file_counts": {
+    "private_key_content": 14,
+    "incomplete_or_corrupt_download": 1
+  },
+  "dataset_origin_verification": [
+    {
+      "source": "E:\\医学\\01\\data\\T2KidneyMRI\\downloads\\Healthy_Control.zip",
+      "record_url": "https://zenodo.org/records/5153568",
+      "license": "cc-by-4.0",
+      "md5": "561badbc875874c5e69cf725a8545330"
+    },
+    {
+      "source": "D:\\30 医学论文\\01\\data\\T2KidneyMRI\\downloads\\Healthy_Control.zip",
+      "record_url": "https://zenodo.org/records/5153568",
+      "license": "cc-by-4.0",
+      "md5": "561badbc875874c5e69cf725a8545330"
+    },
+    {
+      "source": "E:\\医学\\01\\data\\T2KidneyMRI\\downloads\\CKD.zip",
+      "record_url": "https://zenodo.org/records/5153568",
+      "license": "cc-by-4.0",
+      "md5": "8fe112954083212cbee80a6087db84c5"
+    },
+    {
+      "source": "D:\\30 医学论文\\01\\data\\T2KidneyMRI\\downloads\\CKD.zip",
+      "record_url": "https://zenodo.org/records/5153568",
+      "license": "cc-by-4.0",
+      "md5": "8fe112954083212cbee80a6087db84c5"
+    },
+    {
+      "source": "E:\\医学\\01\\data\\T2KidneyMRI\\downloads\\subject_information.csv",
+      "record_url": "https://zenodo.org/records/5153568",
+      "license": "cc-by-4.0",
+      "md5": "3bc3d595339cb7c1f9208a07f7335ef5"
+    },
+    {
+      "source": "D:\\30 医学论文\\01\\data\\T2KidneyMRI\\downloads\\subject_information.csv",
+      "record_url": "https://zenodo.org/records/5153568",
+      "license": "cc-by-4.0",
+      "md5": "3bc3d595339cb7c1f9208a07f7335ef5"
+    },
+    {
+      "source": "E:\\医学\\01\\data\\CHAOS\\downloads\\CHAOS_Train_Sets.zip",
+      "record_url": "https://zenodo.org/records/3431873",
+      "license": "cc-by-nc-sa-4.0",
+      "md5": "df21053002a1cc86df918a87da3b2c19"
+    },
+    {
+      "source": "D:\\30 医学论文\\01\\data\\CHAOS\\downloads\\CHAOS_Train_Sets.zip",
+      "record_url": "https://zenodo.org/records/3431873",
+      "license": "cc-by-nc-sa-4.0",
+      "md5": "df21053002a1cc86df918a87da3b2c19"
+    },
+    {
+      "source": "E:\\医学\\01\\data\\AMOS22\\downloads\\amos22.zip",
+      "record_url": "https://zenodo.org/records/7262581",
+      "license": "cc-by-4.0",
+      "md5": "67717b2a483ac0744c89c3016b7aaef7"
+    },
+    {
+      "source": "D:\\30 医学论文\\01\\data\\AMOS22\\downloads\\amos22.zip",
+      "record_url": "https://zenodo.org/records/7262581",
+      "license": "cc-by-4.0",
+      "md5": "67717b2a483ac0744c89c3016b7aaef7"
+    }
+  ],
+  "asset_count": 259,
+  "asset_bytes": 136478081332
+}

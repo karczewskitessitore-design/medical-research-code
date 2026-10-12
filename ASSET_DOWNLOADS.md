@@ -2,7 +2,13 @@
 
 仓库现在公开。大文件按三类发布到 GitHub Releases：`image_data`、`model_weights`、`environment`。
 
-上传正在进行；每类完整上传并通过 GitHub 端 SHA-256 校验后，其 Release 才会公开。最终链接、文件数与体积会写入本页。
+所有三类均已上传完成，并通过 GitHub 端 SHA-256 校验。分卷与清单校验值见 [release_assets.json](release_assets.json)，审计结果见 [ASSET_AUDIT.json](ASSET_AUDIT.json)。
+
+| 类别 | 下载页面 | 原始文件数 | 去重后内容数 | 下载体积 |
+| --- | --- | ---: | ---: | ---: |
+| 影像数据 | [GitHub Release](https://github.com/karczewskitessitore-design/medical-research-code/releases/tag/research-assets-20261012-image-data-v2) | 20,924 | 9,558 | 48.05 GiB |
+| 模型权重 | [GitHub Release](https://github.com/karczewskitessitore-design/medical-research-code/releases/tag/research-assets-20261012-model-weights-v2) | 1,138 | 975 | 74.82 GiB |
+| 运行环境 | [GitHub Release](https://github.com/karczewskitessitore-design/medical-research-code/releases/tag/research-assets-20261012-environment-v2) | 124,181 | 64,615 | 4.24 GiB |
 
 ## 保存与去重方式
 

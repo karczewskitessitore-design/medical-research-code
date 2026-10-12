@@ -1,0 +1,2082 @@
+{
+  "repository": "https://github.com/karczewskitessitore-design/medical-research-code",
+  "releases": {
+    "image_data": "https://github.com/karczewskitessitore-design/medical-research-code/releases/tag/research-assets-20261012-image-data-v2",
+    "model_weights": "https://github.com/karczewskitessitore-design/medical-research-code/releases/tag/research-assets-20261012-model-weights-v2",
+    "environment": "https://github.com/karczewskitessitore-design/medical-research-code/releases/tag/research-assets-20261012-environment-v2"
+  },
+  "assets": [
+    {
+      "category": "environment",
+      "name": "environment.tar.gz.part0001",
+      "bytes": 536870912,
+      "sha256": "3efa9a5027b4a92b4508022d23e9b84ad976a3864e27ab0a6ce7e4d52b7c31ea",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-environment-v2/environment.tar.gz.part0001",
+      "asset_id": 633051602
+    },
+    {
+      "category": "environment",
+      "name": "environment.tar.gz.part0002",
+      "bytes": 536870912,
+      "sha256": "a4f851540f0926176664084bcf640e24bd9dc12f527dcbc3fdad4c9d610bc727",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-environment-v2/environment.tar.gz.part0002",
+      "asset_id": 633054450
+    },
+    {
+      "category": "environment",
+      "name": "environment.tar.gz.part0003",
+      "bytes": 536870912,
+      "sha256": "4905f08988f79c70538c27eebd5ef35277402a3a974f423926b8f7d4e029c9a8",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-environment-v2/environment.tar.gz.part0003",
+      "asset_id": 633067602
+    },
+    {
+      "category": "environment",
+      "name": "environment.tar.gz.part0004",
+      "bytes": 536870912,
+      "sha256": "e412f3f9be38c0b810bf3a50d0711affb98174ccdb1001a7b7ff5db71ece9b16",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-environment-v2/environment.tar.gz.part0004",
+      "asset_id": 633069527
+    },
+    {
+      "category": "environment",
+      "name": "environment.tar.gz.part0005",
+      "bytes": 536870912,
+      "sha256": "edb4d13812e9117326ccb5418571e31a55507e9f62c734ca23f612136862301a",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-environment-v2/environment.tar.gz.part0005",
+      "asset_id": 633072279
+    },
+    {
+      "category": "environment",
+      "name": "environment.tar.gz.part0006",
+      "bytes": 536870912,
+      "sha256": "a6673a4a02fc322d0a1200f33af0ff954da1c05887f4552bbf61a4f2d4e00fa6",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-environment-v2/environment.tar.gz.part0006",
+      "asset_id": 633074876
+    },
+    {
+      "category": "environment",
+      "name": "environment.tar.gz.part0007",
+      "bytes": 536870912,
+      "sha256": "beb7d9854d6f2c5c6abc6102d58b9b01228b7ab6fa3d7310287a5d1b03912e4c",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-environment-v2/environment.tar.gz.part0007",
+      "asset_id": 633076000
+    },
+    {
+      "category": "environment",
+      "name": "environment.tar.gz.part0008",
+      "bytes": 536870912,
+      "sha256": "b1e427fa42a306b49e976d0157973554ffd6676eaeea4152ca3d5a0e65756a39",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-environment-v2/environment.tar.gz.part0008",
+      "asset_id": 633077469
+    },
+    {
+      "category": "environment",
+      "name": "environment.tar.gz.part0009",
+      "bytes": 221079544,
+      "sha256": "63a0047202cf3e21de323c5596455fedd9bbd4dde8d2cbe04df79479614ecf37",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-environment-v2/environment.tar.gz.part0009",
+      "asset_id": 633092324
+    },
+    {
+      "category": "environment",
+      "name": "environment_files.jsonl",
+      "bytes": 33534620,
+      "sha256": "2ff77f0509ec28a919236087c450508756f89b440b8a14880aa95bfbb6e62610",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-environment-v2/environment_files.jsonl",
+      "asset_id": 633093356
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0001",
+      "bytes": 536870912,
+      "sha256": "25e135ebef1e6eb74eb02c8fc59c28487912201cbbd0de467187cd52bb2eda2f",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0001",
+      "asset_id": 632463966
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0002",
+      "bytes": 536870912,
+      "sha256": "008bf03ca7fd22c9e555d898f6d5b85c3a309e5e66f4babde865b2277b38d84e",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0002",
+      "asset_id": 632465125
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0003",
+      "bytes": 536870912,
+      "sha256": "ed09f80385ad156a38c2e17646b33c15b1707f0b15d2588bfeaeb2572d1348a4",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0003",
+      "asset_id": 632465627
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0004",
+      "bytes": 536870912,
+      "sha256": "bda02096d2f2a69b811f5fbdabb8d5c047d52b1a04e811606119f398c1d08866",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0004",
+      "asset_id": 632468176
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0005",
+      "bytes": 536870912,
+      "sha256": "fd81daf37b0c68cf9bc297e9d3a031baa57e0fe06cd313ecc15b138472196832",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0005",
+      "asset_id": 632468759
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0006",
+      "bytes": 536870912,
+      "sha256": "45317978d73e01c379c7ab36e47586cec51648ef06a6a3ea968337837ce62564",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0006",
+      "asset_id": 632471113
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0007",
+      "bytes": 536870912,
+      "sha256": "f83bc3b66d12bca04bdf5c87f0d2be00193cac83036171ca338e1b4a250cbccf",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0007",
+      "asset_id": 632471755
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0008",
+      "bytes": 536870912,
+      "sha256": "050f2f4afc60d91cf096cc7ad4026d8ef9515ec89f90ca2fdb3f894b9d1d9ae3",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0008",
+      "asset_id": 632473680
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0009",
+      "bytes": 536870912,
+      "sha256": "5c40f6ebfb291f91ae69d0c63a58cfea63065c011529a472a0faaea865fa88b9",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0009",
+      "asset_id": 632474951
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0010",
+      "bytes": 536870912,
+      "sha256": "d35a8910f5beb13a0061eb02bd64d8d1bcd869cad1cbd02c2b7a567fd43284bb",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0010",
+      "asset_id": 632476507
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0011",
+      "bytes": 536870912,
+      "sha256": "71979d73ac57c4182b3c1774bff273f55c59ec37d4f66b4ac7a6d5de02969bfd",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0011",
+      "asset_id": 632478397
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0012",
+      "bytes": 536870912,
+      "sha256": "1e7b8dd2236cfea3cdc8cf920b44fa65f64b75becf9d5f81669b62f15f55c5b0",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0012",
+      "asset_id": 632480333
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0013",
+      "bytes": 536870912,
+      "sha256": "dc2f748cbe98cc1bcf817950246c735301023fd8a21414b62e57c540f34c357a",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0013",
+      "asset_id": 632480993
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0014",
+      "bytes": 536870912,
+      "sha256": "1aa397c07be94a60fb296def177b50edd5fde49c72164f437d73ffdc1c0f80c0",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0014",
+      "asset_id": 632483484
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0015",
+      "bytes": 536870912,
+      "sha256": "f7d988832ea129b38042192d520f236a4a173964371c9fc9c33ffae8c2fb406d",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0015",
+      "asset_id": 632484569
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0016",
+      "bytes": 536870912,
+      "sha256": "6d9f97d63ddc80c308e50a5f04799163d4bc2c32f0a055d5596954dd96e16abd",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0016",
+      "asset_id": 632486877
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0017",
+      "bytes": 536870912,
+      "sha256": "e9d99cfc58a2ab225decc590f99328222cf6d615bafc3cbb1d3fe0f3494dce21",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0017",
+      "asset_id": 632487844
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0018",
+      "bytes": 536870912,
+      "sha256": "c3c32a03b0c4652c9afeacf26e0ada410df01b4b47676a19a6ffc1abc730f4d7",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0018",
+      "asset_id": 632489902
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0019",
+      "bytes": 536870912,
+      "sha256": "54f4c86a5571bdda8573c673a8ea4afb97c96fbfaa96a46ad35c1e1dc26cd5ac",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0019",
+      "asset_id": 632491119
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0020",
+      "bytes": 536870912,
+      "sha256": "54e4174dae041d977c56bdec17d9339cd8cbeaba1c9eb5ac4e8364aab66351de",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0020",
+      "asset_id": 632493374
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0021",
+      "bytes": 536870912,
+      "sha256": "b63e5bb311eb2ec3499e0e3b1f4b5614e555cca41e8b7baf8989484277e32cd8",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0021",
+      "asset_id": 632494682
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0022",
+      "bytes": 536870912,
+      "sha256": "15eb800b3113a7cd187d26aa7f484498545552306039e78e8d7cc352b8bb5501",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0022",
+      "asset_id": 632496820
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0023",
+      "bytes": 536870912,
+      "sha256": "18348420bac05a0ee50933d0952d70dce95a308d6ed589828be7dfc6ec419634",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0023",
+      "asset_id": 632498334
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0024",
+      "bytes": 536870912,
+      "sha256": "70bdece90b7a1b9e7236d9efa81e5b69159b6b119bbc8a82fdd09db5e56ce1ef",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0024",
+      "asset_id": 632499767
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0025",
+      "bytes": 536870912,
+      "sha256": "7450120d4c562405e54603b905fc33437d42e95b561c40975b355482f42d782f",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0025",
+      "asset_id": 632501503
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0026",
+      "bytes": 536870912,
+      "sha256": "ff70b11f2489d021c763556ea6ca8510ce3c7f8767c9fff08acd9592877a32c8",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0026",
+      "asset_id": 632502109
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0027",
+      "bytes": 536870912,
+      "sha256": "95b07d69d76fe31ab9b47b8c737e5f9311bdbe6c5de1a7760cba556f4bbc3a31",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0027",
+      "asset_id": 632504363
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0028",
+      "bytes": 536870912,
+      "sha256": "5e180ca9f1429c29253c0507eb89fab004dc4dfd5b12faced3fd162a926ee06b",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0028",
+      "asset_id": 632505141
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0029",
+      "bytes": 536870912,
+      "sha256": "ed177f9b1e743c0f0f9ff1efeb3b85d36e58adcdd7dd7430c260bd1080424517",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0029",
+      "asset_id": 632507630
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0030",
+      "bytes": 536870912,
+      "sha256": "80d70bdf84ef928e89ce3d858f5cf329c68e61c913a36bb25745d4485e2255e5",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0030",
+      "asset_id": 632509169
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0031",
+      "bytes": 536870912,
+      "sha256": "ee9b382c2e2f0c2a1757c6d51cc486c79cdae24cc621828528f9da63164778f9",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0031",
+      "asset_id": 632510521
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0032",
+      "bytes": 536870912,
+      "sha256": "2b6d979750ec6aaa5291f0377e3afe8f2011da6a0cd381e6f9b410e53f61abf7",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0032",
+      "asset_id": 632512270
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0033",
+      "bytes": 536870912,
+      "sha256": "6a74c70de8b48f547747fd266859c696fde335ad751cbd378c4e53f430f135fe",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0033",
+      "asset_id": 632513541
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0034",
+      "bytes": 536870912,
+      "sha256": "b30122d75df20919ab8d92ae6cf64dd4feb9f00ee649abb5ccf41e5e273d61c1",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0034",
+      "asset_id": 632515255
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0035",
+      "bytes": 536870912,
+      "sha256": "044f1f47f9f0130ac79e838bd9e8d279812c1f02b3e8a39f2ac0a064a59fa6ff",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0035",
+      "asset_id": 632516378
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0036",
+      "bytes": 536870912,
+      "sha256": "e7a8197f70ad3e99635f32496aa1e934c629c1bc769bcc5da3e20c7092262cdf",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0036",
+      "asset_id": 632518291
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0037",
+      "bytes": 536870912,
+      "sha256": "537724d24697839ee1a656e03459f3c9f1da344c84acc8fa8826ebe15dd2cd13",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0037",
+      "asset_id": 632518816
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0038",
+      "bytes": 536870912,
+      "sha256": "d39193af9ab95c7765251c5d2800f6b2612b448f91f794ee05c748e9f7c97924",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0038",
+      "asset_id": 632521668
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0039",
+      "bytes": 536870912,
+      "sha256": "ad5fdf1c2c9602b2008ec04f706893218877a0f5b2152073ffb194b9a88dbc24",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0039",
+      "asset_id": 632521958
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0040",
+      "bytes": 536870912,
+      "sha256": "61fcf66042d0d0c47a1e362d88053838ed0c6e60cabae77c59b130880efa4151",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0040",
+      "asset_id": 632525582
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0041",
+      "bytes": 536870912,
+      "sha256": "95157d18e1293b4ae69e276bbc3aecdfd2d01928afc91b714bab516038f61456",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0041",
+      "asset_id": 632525645
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0042",
+      "bytes": 536870912,
+      "sha256": "a1c417d41ae6999731cd9b648e55e6f6c8fe0e44f6e3b26b776bdee5ae8333ac",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0042",
+      "asset_id": 632529867
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0043",
+      "bytes": 536870912,
+      "sha256": "212b8cf29dd32ce6bf55143bac497fabc78d40b887ac99df32a3d3ab447a6388",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0043",
+      "asset_id": 632529588
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0044",
+      "bytes": 536870912,
+      "sha256": "ea93efbe624acd45e353014a8b4cb83143a63e41a3ee4f858c5927a3ca0940f5",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0044",
+      "asset_id": 632532558
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0045",
+      "bytes": 536870912,
+      "sha256": "54d631d6328904beceff81dece7cf98f4ee6ba525038c4ada540356dc56cca22",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0045",
+      "asset_id": 632532804
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0046",
+      "bytes": 536870912,
+      "sha256": "357e7a7d531e642bc336c209b5702082eb2e2ebd7b189e1ea55a282871b39e21",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0046",
+      "asset_id": 632537183
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0047",
+      "bytes": 536870912,
+      "sha256": "e3af19fbeeca8be8a9bfbc3af801f3be9eee3675a622a25bf5b940b59025dcf2",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0047",
+      "asset_id": 632537485
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0048",
+      "bytes": 536870912,
+      "sha256": "3e194df0ba0f20e7d61db91d9bfa9ca8cd58812a8ee1e22df54dfb644b682bd1",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0048",
+      "asset_id": 632540615
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0049",
+      "bytes": 536870912,
+      "sha256": "7a9cf889f50f1350df645c8ad25d708756285ce64a7b536c4d20100602c700b0",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0049",
+      "asset_id": 632540706
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0050",
+      "bytes": 536870912,
+      "sha256": "0eac29f18ead6fcd4f273305935e41e2d4061646308c9f2e4266a166e0f30f7b",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0050",
+      "asset_id": 632544249
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0051",
+      "bytes": 536870912,
+      "sha256": "635a1df26b8b2fcf1bcb899d404d89d8cf06dec582394b358d456629fa2a8e1f",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0051",
+      "asset_id": 632543727
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0052",
+      "bytes": 536870912,
+      "sha256": "8daf19b131253f54b0a05b6ac1175b4d0a01962e509ac6f57cfd890efc532f44",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0052",
+      "asset_id": 632546653
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0053",
+      "bytes": 536870912,
+      "sha256": "ea635d8bde38deb259bb57805fa44772722d6bc65d3e7691898095c9459a38d5",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0053",
+      "asset_id": 632547040
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0054",
+      "bytes": 536870912,
+      "sha256": "c637efc19e86b94ed8267a26f3f208e3ef9d58285426326e0f4941fe8bc0ef4a",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0054",
+      "asset_id": 632550768
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0055",
+      "bytes": 536870912,
+      "sha256": "6801d95fcb32af42341955908afce12784d8047fa20fe2f955ad2d181ba06c9a",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0055",
+      "asset_id": 632550470
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0056",
+      "bytes": 536870912,
+      "sha256": "0be67b971dd5a73948b59a136c56c7ea79dea58f029b98e6b9d2cd2724299788",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0056",
+      "asset_id": 632554235
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0057",
+      "bytes": 536870912,
+      "sha256": "c370a87238df0c1ae86f5ee8597a714d6748d2d0469f92a71b5e73154ddc933b",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0057",
+      "asset_id": 632553973
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0058",
+      "bytes": 536870912,
+      "sha256": "2b2973416fe78843a9658c45b1cb7b387f1cfae6a23abc812422b4c8db5362bc",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0058",
+      "asset_id": 632557684
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0059",
+      "bytes": 536870912,
+      "sha256": "bb90eee139b2f553b7e05c3d43f6f6118ed74fc56dccba5fde05b53ea90aeaf3",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0059",
+      "asset_id": 632557886
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0060",
+      "bytes": 536870912,
+      "sha256": "e704aea3894282b306275530233e2e2686e4461de8cb668330e8e54121bc3c71",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0060",
+      "asset_id": 632560644
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0061",
+      "bytes": 536870912,
+      "sha256": "e5f6d317526a9d8018734e4fa6cb774b53ce8b2a30fd616d30a5ee80855ff110",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0061",
+      "asset_id": 632560582
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0062",
+      "bytes": 536870912,
+      "sha256": "dccd1bdd3964aa85fd64e07f43a1b34d108e95f8dfb75be85926b28dee43af5b",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0062",
+      "asset_id": 632563938
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0063",
+      "bytes": 536870912,
+      "sha256": "ae573d8a4795522f10a52cbf35a79b5a87f9ec777a4dc84edd987a13ff4eaf31",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0063",
+      "asset_id": 632563793
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0064",
+      "bytes": 536870912,
+      "sha256": "846d363d85c1c7ef38a2d66f4d1129180780b6274110929d2a594ae98dfccf67",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0064",
+      "asset_id": 632567059
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0065",
+      "bytes": 536870912,
+      "sha256": "ef65059ab4f687c0befff979b55f74f9812e99303c07dfa3369113b0a48d97c3",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0065",
+      "asset_id": 632567139
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0066",
+      "bytes": 536870912,
+      "sha256": "27a7053d8d984c3f706311a1224e2b8b6afea035ff9af19af2c4a8f5f92defe0",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0066",
+      "asset_id": 632570555
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0067",
+      "bytes": 536870912,
+      "sha256": "78604b4b1cc99f170b51ddf643ced06823e6ba2fe109e1e9530da3083ece4ab3",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0067",
+      "asset_id": 632570265
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0068",
+      "bytes": 536870912,
+      "sha256": "284807205cb9fea2040ba5ce2504c964b78306dfc1f040c740421289373df95a",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0068",
+      "asset_id": 632573218
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0069",
+      "bytes": 536870912,
+      "sha256": "021ed5572418f33cf272910d54087e9a64702ec9c83955b074bbb14146afe17c",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0069",
+      "asset_id": 632573410
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0070",
+      "bytes": 536870912,
+      "sha256": "360bb7da88c1e099a0d0c8f340ff1f33c28629b1e65a702ab4b62c1402683a79",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0070",
+      "asset_id": 632576036
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0071",
+      "bytes": 536870912,
+      "sha256": "fdf1588b7fe80e96961de2b3d97775cd4e3b2c77773563fc69f3be3f52f49436",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0071",
+      "asset_id": 632576257
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0072",
+      "bytes": 536870912,
+      "sha256": "61faf2bc768f15f234eed71a9e2d58e44950ee7589677dc51337d18fc48d9a3f",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0072",
+      "asset_id": 632578999
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0073",
+      "bytes": 536870912,
+      "sha256": "a819541e0569bddb58712d1419925948672721650a961ea2c09ac0122fe10780",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0073",
+      "asset_id": 632578916
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0074",
+      "bytes": 536870912,
+      "sha256": "767304cac5c2c2e49428adc4a9d44b88cad87193d98fb693421b54bb56797b68",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0074",
+      "asset_id": 632582149
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0075",
+      "bytes": 536870912,
+      "sha256": "92ccc9c97c6165a94ad57f4e6efb94622897fc3855af177f1a17b6a1edf1aa66",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0075",
+      "asset_id": 632582003
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0076",
+      "bytes": 536870912,
+      "sha256": "c076d6932d795b6d713af49db15834cf3970cf6e14eaaea376e8b283212f6d17",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0076",
+      "asset_id": 632585098
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0077",
+      "bytes": 536870912,
+      "sha256": "a2125514502ce7c5d6fdb8e58bdaad94b216d2a05d130e64965145a0cc399f16",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0077",
+      "asset_id": 632585314
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0078",
+      "bytes": 536870912,
+      "sha256": "e20756c964d2873dafd588bf0a10519d1a2715c3631694087fe2dbcf65f91975",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0078",
+      "asset_id": 632589265
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0079",
+      "bytes": 536870912,
+      "sha256": "66f2014e58fb3e367a6d63ad5db6fbd07cffdf1b2733dc4e9b228b67ac8c9f66",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0079",
+      "asset_id": 632589346
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0080",
+      "bytes": 536870912,
+      "sha256": "ee26daad46937d486cf2c8ae6d6ca3defe8b71b91c698b8cf90c2d40e01a09c6",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0080",
+      "asset_id": 632592900
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0081",
+      "bytes": 536870912,
+      "sha256": "731f643fbe9329cc817d4feac97210f2e2ab85c06908f5cfba46062fc3ded961",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0081",
+      "asset_id": 632592597
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0082",
+      "bytes": 536870912,
+      "sha256": "1ea488564e7460416c4422eab946d0c2790d58a70e0abe546340c5a037fec451",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0082",
+      "asset_id": 632596470
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0083",
+      "bytes": 536870912,
+      "sha256": "cc6e8a822fe49993907ee4626bff60b75a10397cc52b103dd8b7579482a22b33",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0083",
+      "asset_id": 632596433
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0084",
+      "bytes": 536870912,
+      "sha256": "d15b9de103eab68d2589331e9ad5204a4957b83af26b65ca8ab4eb9b053a4c25",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0084",
+      "asset_id": 632600201
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0085",
+      "bytes": 536870912,
+      "sha256": "3bbf1ff59eaea80471332bfd3b9618f841a52f0fd18c8f9be6471cbeebcd8e46",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0085",
+      "asset_id": 632600090
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0086",
+      "bytes": 536870912,
+      "sha256": "c9526135cae544ac15f9ed1089f671522eb07a80e9a3afd889430ecb0bb26ec2",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0086",
+      "asset_id": 632603754
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0087",
+      "bytes": 536870912,
+      "sha256": "f3be81d2de1f5b5f8a347c48405c63f33883475e845458b6951ac6d658b0edb8",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0087",
+      "asset_id": 632603474
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0088",
+      "bytes": 536870912,
+      "sha256": "ffeeff7484daf948fe26d3b2a91b57f19ca46e675bef98882ae33f1e24849403",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0088",
+      "asset_id": 632607076
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0089",
+      "bytes": 536870912,
+      "sha256": "5ffc86548be781d8d0e325c0453826a681f124cbdd5797a54947f1a3eaec261d",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0089",
+      "asset_id": 632607187
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0090",
+      "bytes": 536870912,
+      "sha256": "26547f8f2f4f1d007325e2f22980a33ea7d64c644f5565b4d0e8f0dbc2b61ffe",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0090",
+      "asset_id": 632610735
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0091",
+      "bytes": 536870912,
+      "sha256": "afdfef1c23b7199cd07cda792f56c81e26783eb75d084fe8f8aefbc61c89c24b",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0091",
+      "asset_id": 632610662
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0092",
+      "bytes": 536870912,
+      "sha256": "b596ee9a87354b4b42b63010e57d873d31311024fab581ebe0234ea180a51a04",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0092",
+      "asset_id": 632614783
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0093",
+      "bytes": 536870912,
+      "sha256": "218a399b3c2c408ea71a970d940cd14e9daa379465672c3d895547438db14ee3",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0093",
+      "asset_id": 632614436
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0094",
+      "bytes": 536870912,
+      "sha256": "6e662368e7dfda84a755f8eae84d805c3badc0a44360bb2bdffb1ee69d1005e1",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0094",
+      "asset_id": 632617844
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0095",
+      "bytes": 536870912,
+      "sha256": "6df8acf80609f5b33c5a473d3ecb96ef2ec5c5c8879e908a0f186fb7f17d222c",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0095",
+      "asset_id": 632618963
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0096",
+      "bytes": 536870912,
+      "sha256": "ae290a228dafa09c8f9d354f3326ccd125144f7627d973b105cc0126a755c75a",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0096",
+      "asset_id": 632620600
+    },
+    {
+      "category": "image_data",
+      "name": "image_data.tar.gz.part0097",
+      "bytes": 51257951,
+      "sha256": "6826d8a02cecc95206b161742258c6653662dc278adcf00bc7e7f48aa0f2b13c",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data.tar.gz.part0097",
+      "asset_id": 632626391
+    },
+    {
+      "category": "image_data",
+      "name": "image_data_files.jsonl",
+      "bytes": 4683939,
+      "sha256": "bae5b8ebcf1250197349ef42667e9e52042a1e7aaf22a31e970ace53d0b2aa8c",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-image-data-v2/image_data_files.jsonl",
+      "asset_id": 632626594
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0001",
+      "bytes": 536870912,
+      "sha256": "0519969a5c1adfdc8e23a46b09d73099d28dc1bc56526202ae04a4eaa33adcb8",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0001",
+      "asset_id": 632627291
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0002",
+      "bytes": 536870912,
+      "sha256": "7e9c3e008a8ed8d3a69e54b56209d9abcdc4211852eb2edc1f79c3aaf23ab238",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0002",
+      "asset_id": 632628707
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0003",
+      "bytes": 536870912,
+      "sha256": "6bdf5b7251e2a1201a4c57fae1604a96024177d8cfec7c7eeb72760cd046dc89",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0003",
+      "asset_id": 632629514
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0004",
+      "bytes": 536870912,
+      "sha256": "e7770e9c2c0c18c19a2f2465f65c917594292a3162dd171596b9d42bf85f9915",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0004",
+      "asset_id": 632631383
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0005",
+      "bytes": 536870912,
+      "sha256": "7e0dc607eac00499099a477b87b386800a01e83d6749bd2f46d68dfea0b1b443",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0005",
+      "asset_id": 632632138
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0006",
+      "bytes": 536870912,
+      "sha256": "36a773b6ac778e11f1e0d22150199b4af00cd9e6db4e63b7b85b539809227227",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0006",
+      "asset_id": 632634251
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0007",
+      "bytes": 536870912,
+      "sha256": "4d49d6f530f30e94e93ddff51e1aef03721e8d9a90a07f6d29b7edb3e8f9a609",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0007",
+      "asset_id": 632635084
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0008",
+      "bytes": 536870912,
+      "sha256": "d8c9c229e7098cdbcc01217d06a1351a91bcf144c5c2e0052bef9e2f829be13c",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0008",
+      "asset_id": 632637309
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0009",
+      "bytes": 536870912,
+      "sha256": "c7377870b4ebb2aeca699a53468240671ddecd21b89a19d6cf32d7d71a2d816a",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0009",
+      "asset_id": 632638254
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0010",
+      "bytes": 536870912,
+      "sha256": "3c5d955148b1268bc123af6856c11bdd6a010efed3082080a6cc17325d75aa09",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0010",
+      "asset_id": 632640005
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0011",
+      "bytes": 536870912,
+      "sha256": "9e3f53587961a08f27613f032872653fafe77ca5f4a8701904ee5f78c34a4f9e",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0011",
+      "asset_id": 632641254
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0012",
+      "bytes": 536870912,
+      "sha256": "c770a368033c4fc9f575bc535b7f051f40b07a6e639577620d9fe8cc917488f3",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0012",
+      "asset_id": 632642857
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0013",
+      "bytes": 536870912,
+      "sha256": "69eb2582c2549fd258530a159143a1243fed9cd45d4aae95ce73cbead3edd64f",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0013",
+      "asset_id": 632643369
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0014",
+      "bytes": 536870912,
+      "sha256": "13b1577c0f67e9377496063cbdd14ee1757a941076020ad8bc03cb693bfd26f8",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0014",
+      "asset_id": 632645369
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0015",
+      "bytes": 536870912,
+      "sha256": "a0108f01be674291fd01265277620416866f16691f1f1fb4ebcc41032721c2e9",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0015",
+      "asset_id": 632646223
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0016",
+      "bytes": 536870912,
+      "sha256": "328b9a30551dfd8255455f9bb49cfec25289e4c0e25aec11ba48658befd32326",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0016",
+      "asset_id": 632649041
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0017",
+      "bytes": 536870912,
+      "sha256": "d8fe137b1c01c935452d9e1ed8536b361460459eb1d424de668b8b6b667dc3d6",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0017",
+      "asset_id": 632649893
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0018",
+      "bytes": 536870912,
+      "sha256": "43c28c897744b33b92886fe5cb0d03fbb23ed288ccd210c7dcca92b64c4da347",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0018",
+      "asset_id": 632652287
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0019",
+      "bytes": 536870912,
+      "sha256": "505a9c46382784ec0b753a41509c1f5a157af566a798f4cbf45c6af1e979544e",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0019",
+      "asset_id": 632653670
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0020",
+      "bytes": 536870912,
+      "sha256": "703aa459e557e8438a3624c66e24dbc949f40fea15f578a9eab13c5cc46b4252",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0020",
+      "asset_id": 632654722
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0021",
+      "bytes": 536870912,
+      "sha256": "aa5b20ed40e12eb12ebaca904dd52872d5c564e2cc10454f89e843dd9e2af531",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0021",
+      "asset_id": 632656575
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0022",
+      "bytes": 536870912,
+      "sha256": "9181d275281c9d2ec87060bcdbcfa43f1a6efcd1bf5e3a2bb7ab84afedf66e5d",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0022",
+      "asset_id": 632657378
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0023",
+      "bytes": 536870912,
+      "sha256": "8ee7b399cf8f6210981b992a870c50f46cf79ab79d45fcd6374f93d5dc759fe0",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0023",
+      "asset_id": 632659366
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0024",
+      "bytes": 536870912,
+      "sha256": "a72fb90531c4883f63fc70361e83676b730911c63ac722bef5b68fdb7c32fd1c",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0024",
+      "asset_id": 632659789
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0025",
+      "bytes": 536870912,
+      "sha256": "c83cbc6f2964003b14834085867726775ec16a21b78fe07a0eccef6e8ced0e85",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0025",
+      "asset_id": 632662597
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0026",
+      "bytes": 536870912,
+      "sha256": "539eff8d423b58920cbb2d3dfeb9c9cb73657c096a88cbd0fe82ed86127b3391",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0026",
+      "asset_id": 632663068
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0027",
+      "bytes": 536870912,
+      "sha256": "c3d637f2c0281475521b83bb41e2a755f7cc65a5d756daf9985c8a4496672606",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0027",
+      "asset_id": 632665646
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0028",
+      "bytes": 536870912,
+      "sha256": "e9a027d1e38be73e98a0c595b53aeb102464fff0a85f1a3d053abc7d29067151",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0028",
+      "asset_id": 632665896
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0029",
+      "bytes": 536870912,
+      "sha256": "a23caaac5484c0818d4ca346566195aedc0bab02d5006f8a588a4fb0f0f9120f",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0029",
+      "asset_id": 632669052
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0030",
+      "bytes": 536870912,
+      "sha256": "2502fa345c16152f344949932e798864ae560ecc93001c90d9ffc4d5657439c8",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0030",
+      "asset_id": 632669406
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0031",
+      "bytes": 536870912,
+      "sha256": "e5d977daefdc6ce2f84543abcae6556e78282d53eb0219e8aaf4425252ce483e",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0031",
+      "asset_id": 632672708
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0032",
+      "bytes": 536870912,
+      "sha256": "5ec812d9ee4940b0a01e92ab233444d35a872197f962e5cdcd01df5651b4ee24",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0032",
+      "asset_id": 632672628
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0033",
+      "bytes": 536870912,
+      "sha256": "7e3e8b2d427c808bce419aee5d374d89e33fc7e2ca73a183de01960b28127b5d",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0033",
+      "asset_id": 632675907
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0034",
+      "bytes": 536870912,
+      "sha256": "ecb8109f34c8eb395a8d63efeb3be2f47841404bc328df2c45458c07f89da44a",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0034",
+      "asset_id": 632676069
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0035",
+      "bytes": 536870912,
+      "sha256": "076c47c7822edcf8628c7fe79eea44ffa8bca0cf68e55282f72a7625dc3cb2f4",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0035",
+      "asset_id": 632678815
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0036",
+      "bytes": 536870912,
+      "sha256": "45b334066de8e2030d99b77e9e06a6d42802d61e958579d4f2b32da46243a0e2",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0036",
+      "asset_id": 632678751
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0037",
+      "bytes": 536870912,
+      "sha256": "cd5215b104770feb83c992253e9277901a8acda63e1995d6e68494022168cacb",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0037",
+      "asset_id": 632681652
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0038",
+      "bytes": 536870912,
+      "sha256": "a10a326de8da559ea90f103f9b0e71fb973cf7484a86cf75a31e8f80766b52a6",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0038",
+      "asset_id": 632681544
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0039",
+      "bytes": 536870912,
+      "sha256": "7e3c6e4fb8ff3ffcc8c0881ade9e0d2b1ba1b6b4776f7a14ccea11b8c5ab8ed2",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0039",
+      "asset_id": 632684610
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0040",
+      "bytes": 536870912,
+      "sha256": "65ccb32e608269a3a1d7b661f203474dd791b006d3a45e6fe488c81dd787d0fc",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0040",
+      "asset_id": 632684593
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0041",
+      "bytes": 536870912,
+      "sha256": "f35c284dc451bf6a4892db474eeaaef469408e3bd87ba601d47aa5d53fd159b5",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0041",
+      "asset_id": 632688514
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0042",
+      "bytes": 536870912,
+      "sha256": "517e92f53cd9df0fe4087b4fb7501e0a804a43cc45857956a0bcc1b9fa12e561",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0042",
+      "asset_id": 632688085
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0043",
+      "bytes": 536870912,
+      "sha256": "e884aa649e23fd29abb1420cb1f67cc6e057bd3895f7f45460b55f145fc3be86",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0043",
+      "asset_id": 632690829
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0044",
+      "bytes": 536870912,
+      "sha256": "03a576eb5f2c8e1c63f1fcb9733e5425226e1046482493c136b7eadf07c48ceb",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0044",
+      "asset_id": 632690936
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0045",
+      "bytes": 536870912,
+      "sha256": "94b98a31fe108cd326243175b24c976c05ff778aef8b24fe133263642fb12b56",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0045",
+      "asset_id": 632693789
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0046",
+      "bytes": 536870912,
+      "sha256": "1d8615575d0c5f01e030448ab330b76734bbfe752819149f15fb0196b7bf4224",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0046",
+      "asset_id": 632693668
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0047",
+      "bytes": 536870912,
+      "sha256": "04aad4c5a8d9f744d0ab4d6ecdc53f980221dc6f2dc8b3897895cd1512c352d9",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0047",
+      "asset_id": 632696637
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0048",
+      "bytes": 536870912,
+      "sha256": "6defcb448805f161fa84dd8a3d39924b3f97cdbe39986b11ef59ab67fdb29db1",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0048",
+      "asset_id": 632696672
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0049",
+      "bytes": 536870912,
+      "sha256": "931655d053fa755d05bcedd492dfdd922c1fe0e0149996afb00ccb9326ffb920",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0049",
+      "asset_id": 632699998
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0050",
+      "bytes": 536870912,
+      "sha256": "a7e41224074752e9b543518f716d094af46d79b92f8ba58ee661030443df9f77",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0050",
+      "asset_id": 632699635
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0051",
+      "bytes": 536870912,
+      "sha256": "500edb5cdf44ec46641ed87ac447a4f982f15f832820f6417234b266c8bd0681",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0051",
+      "asset_id": 632702635
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0052",
+      "bytes": 536870912,
+      "sha256": "378d3cb3759e17d7fc8d1a676a947ce2862141b8b667b3c35a849b5f4b94d75a",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0052",
+      "asset_id": 632702993
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0053",
+      "bytes": 536870912,
+      "sha256": "d6ecb63731b5fd69f59fd7ba2e857060b69b74898709370b825df32209c01c4f",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0053",
+      "asset_id": 632705995
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0054",
+      "bytes": 536870912,
+      "sha256": "7b7f3e05be11f5f3ad8534be780d5961cf90fcf5e2735f859507003f3126693a",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0054",
+      "asset_id": 632706209
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0055",
+      "bytes": 536870912,
+      "sha256": "6fe3c85de308dc85e6e8fade8875355664470e1e3a094c7eb8f8a33eb41d315a",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0055",
+      "asset_id": 632709298
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0056",
+      "bytes": 536870912,
+      "sha256": "1160683b43e175d6501b78f7eeaa7b41ec78b292c481aa02401f49ea1496e684",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0056",
+      "asset_id": 632709235
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0057",
+      "bytes": 536870912,
+      "sha256": "8b0f06b11c170a3442821caa6b064f1db94f6d72e27f223802000e722a512b24",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0057",
+      "asset_id": 632712435
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0058",
+      "bytes": 536870912,
+      "sha256": "5e5ed411d7016d7bb7b01706542dae413a6549cbd59c88c82ed5326c206a5803",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0058",
+      "asset_id": 632712644
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0059",
+      "bytes": 536870912,
+      "sha256": "b32bf30ffaf98479b58237373f892976ed7d4a175410447659b4d2d1944698ca",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0059",
+      "asset_id": 632715640
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0060",
+      "bytes": 536870912,
+      "sha256": "6909faff2be1deae5235dfa74d21545a238121e76ffff70c36a1efcce4c2c989",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0060",
+      "asset_id": 632715473
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0061",
+      "bytes": 536870912,
+      "sha256": "f0762ee00d802dbd2d0e9bf0637242d4ed4586432ab6b190c524f5a5c06cc852",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0061",
+      "asset_id": 632718674
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0062",
+      "bytes": 536870912,
+      "sha256": "0e7ed5ae3d1fc4c02c75b09f97ef0ba026b6da363aad1d8119f29ec6fc633670",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0062",
+      "asset_id": 632718726
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0063",
+      "bytes": 536870912,
+      "sha256": "66437686bdacaf1de94cc3af41ddc3e46eb1ce644696f0e534c7d484b1207024",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0063",
+      "asset_id": 632884731
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0064",
+      "bytes": 536870912,
+      "sha256": "f637142b73ad389083feb762981c47ea5b2458ed11190ead93905f9630a279f5",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0064",
+      "asset_id": 632886739
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0065",
+      "bytes": 536870912,
+      "sha256": "b06aa61288479b5a6b66488b4fb2f4c02f665052b2e2437f505e0eea34bcd759",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0065",
+      "asset_id": 632888411
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0066",
+      "bytes": 536870912,
+      "sha256": "915e98223fb2cd0a4d3e6cfcf770d790fedc9ed7d02af0ae19105c48ebc6fac1",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0066",
+      "asset_id": 632890517
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0067",
+      "bytes": 536870912,
+      "sha256": "11527c192d64bb77064427b9b1f17c7686c929e39130fd8f7a79f8775ae233ff",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0067",
+      "asset_id": 632892302
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0068",
+      "bytes": 536870912,
+      "sha256": "5639405b30353c81d8e6255f767ccb4d65f04df9353e17eeabbd1011f025de07",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0068",
+      "asset_id": 632894072
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0069",
+      "bytes": 536870912,
+      "sha256": "a4b1ed99a9a25c3c688ecfd5583dafcffaffead36d1cd05ae028bd051cd56923",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0069",
+      "asset_id": 632895690
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0070",
+      "bytes": 536870912,
+      "sha256": "48048c0fbdbf9c046b09c491dcce0d3f9c106c83963007772e29abf12552e912",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0070",
+      "asset_id": 632897490
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0071",
+      "bytes": 536870912,
+      "sha256": "60decf9685019e32170e8c93ad6fcd1232ebf3d2eac5e17a37f28100cdba4fc2",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0071",
+      "asset_id": 632898943
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0072",
+      "bytes": 536870912,
+      "sha256": "7a27fe3d03e5583294d237eb3b477cefc07925cac8c739f6200ef474604bf202",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0072",
+      "asset_id": 632901144
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0073",
+      "bytes": 536870912,
+      "sha256": "91a517f69f93d041dbf455ebf80f1758d5b8a797793c14ed290bf6ceffbb00e3",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0073",
+      "asset_id": 632902740
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0074",
+      "bytes": 536870912,
+      "sha256": "cc4174c44d0eba1754181325c76e00bfdee7d86e54904e77913bb0eb0c2f06b1",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0074",
+      "asset_id": 632905685
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0075",
+      "bytes": 536870912,
+      "sha256": "aa8c6ce975ddc83ae3e713f8c3949046fa3d703fc2439a487773fb6d14cf4745",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0075",
+      "asset_id": 632907436
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0076",
+      "bytes": 536870912,
+      "sha256": "5dd7ba52e2661da50394b9cf80a19b457599d05345a35fdae0c07702d355d121",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0076",
+      "asset_id": 632910038
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0077",
+      "bytes": 536870912,
+      "sha256": "43283899cc2a907b0b1d616de252fe744d6c240d82c4ef230a943b1a83af42f9",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0077",
+      "asset_id": 632911648
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0078",
+      "bytes": 536870912,
+      "sha256": "8b5324a84dd680cbcb997e695447b3e6702716dc9d1831805a4fee2c073e38df",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0078",
+      "asset_id": 632913658
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0079",
+      "bytes": 536870912,
+      "sha256": "bd0b00a0d194b0cef8bc95bb5c071a0dcfd0f5f1cafd52ce2ec6a3ad9ece9f17",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0079",
+      "asset_id": 632915905
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0080",
+      "bytes": 536870912,
+      "sha256": "298348be186c654df44fe274b6ca7a5c97a472ade78eabcc31d09eb0c0e3b4c6",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0080",
+      "asset_id": 632918596
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0081",
+      "bytes": 536870912,
+      "sha256": "d22a823b5e945c43fdbc74d8801aa2d45edaddee85d1252eb826b34cd5bde2f8",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0081",
+      "asset_id": 632920116
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0082",
+      "bytes": 536870912,
+      "sha256": "5c7155c958256393534b1a40f1ce16fd46c539c3c0959c08b2019b8cad1181a5",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0082",
+      "asset_id": 632923097
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0083",
+      "bytes": 536870912,
+      "sha256": "7b8945e45e65668f43f6d1a7ede64a01e39ab4030ebe01db9b72385a079c8ae1",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0083",
+      "asset_id": 632924440
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0084",
+      "bytes": 536870912,
+      "sha256": "f8aef1fa9c41c6508590acc71d5a0b137667c4a640a3eeef90363e481eab8932",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0084",
+      "asset_id": 632926463
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0085",
+      "bytes": 536870912,
+      "sha256": "af5a921c6dda68be98bf173ab0e9697bd614e5ea6ed6b9a0ee70acc409b12585",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0085",
+      "asset_id": 632927975
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0086",
+      "bytes": 536870912,
+      "sha256": "b6451e62be2596bcbf819f3d30d174a91488252a86134057ec596910b4e44071",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0086",
+      "asset_id": 632929489
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0087",
+      "bytes": 536870912,
+      "sha256": "6699d151a80586d65d2b21ec876e1ee276be50737c47c614a05c2ff61f798f38",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0087",
+      "asset_id": 632930572
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0088",
+      "bytes": 536870912,
+      "sha256": "743d0eab9d6f83d6416b4e054e6a32af4cc652fd6b49b5285bd35e34bbe54c53",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0088",
+      "asset_id": 632933033
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0089",
+      "bytes": 536870912,
+      "sha256": "bc922efb6fc883d597b23e51c2a03994fae731c2669f10b105426a438baf4140",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0089",
+      "asset_id": 632934078
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0090",
+      "bytes": 536870912,
+      "sha256": "33183a466abf8dd086a98f1f5eb09d22234c8edce38cd6c9f35211e846d6c320",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0090",
+      "asset_id": 632936180
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0091",
+      "bytes": 536870912,
+      "sha256": "ffe08590bdbc914a18692a5f93b0d6a539e63e4427a0508adb4380a9c38f3187",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0091",
+      "asset_id": 632938007
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0092",
+      "bytes": 536870912,
+      "sha256": "a38eebc80642f92adb4180ad2f0ee8914984419350578a22c237fd4759e4c43a",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0092",
+      "asset_id": 632939851
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0093",
+      "bytes": 536870912,
+      "sha256": "e71fcb95155cd364cec69bf821c5e60bcfd8fe5ec3062498f96324e8b0df24a9",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0093",
+      "asset_id": 632941567
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0094",
+      "bytes": 536870912,
+      "sha256": "1c38330ba6f64e9d2f76e75dd1e705abbeb1062f609e2d78fa5c501612c2c00e",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0094",
+      "asset_id": 632943617
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0095",
+      "bytes": 536870912,
+      "sha256": "b6bcd003406a932891b9f7de54a92f3c7d6134ad427b4f19a2b8988343c298f4",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0095",
+      "asset_id": 632945222
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0096",
+      "bytes": 536870912,
+      "sha256": "40a3ab0b564bd6f8c4062fefa65bfcf85e937856a60b5a3b288a244021af5c9b",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0096",
+      "asset_id": 632947079
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0097",
+      "bytes": 536870912,
+      "sha256": "0074bd7ba70d22c446e66b18ee293318d01bb7ffcfc7c45605d394c19f326a43",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0097",
+      "asset_id": 632948844
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0098",
+      "bytes": 536870912,
+      "sha256": "32945de86209344f7f373cf9e43ed8ed7b9bb267d3a541526c970354f73c152e",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0098",
+      "asset_id": 632950311
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0099",
+      "bytes": 536870912,
+      "sha256": "492e8d897b0af90b82c0c9bb9973aa64d33e86bc4b4ba68005825eb23c8039ef",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0099",
+      "asset_id": 632952016
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0100",
+      "bytes": 536870912,
+      "sha256": "1aa15429fa4833ebada0142af8e764493c1e6a75d8deef72f9a827a80598b41a",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0100",
+      "asset_id": 632953803
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0101",
+      "bytes": 536870912,
+      "sha256": "a861bae33560d34a46c5f45a2b3e235a3b27254851b7ff90d5fae0622259187d",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0101",
+      "asset_id": 632955692
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0102",
+      "bytes": 536870912,
+      "sha256": "d8562ec64a1aa8a877e9b5a4de9302a5b69a2f665a8ce09d55dd6c37ccd3a91c",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0102",
+      "asset_id": 632957827
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0103",
+      "bytes": 536870912,
+      "sha256": "df2e34f4592f3474a26cf12d1d0126f4d1b514b8bb223deb05c757b67ee93419",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0103",
+      "asset_id": 632958259
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0104",
+      "bytes": 536870912,
+      "sha256": "ce9954e9edfeebb2bfeb93a856759a509cbd0e07a3972bd6e3b04b624a9e9cda",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0104",
+      "asset_id": 632961522
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0105",
+      "bytes": 536870912,
+      "sha256": "9880b07b4f3a50c5cfac9f98af048c32dadd836ab716d8480918b4f96d3714ce",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0105",
+      "asset_id": 632961770
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0106",
+      "bytes": 536870912,
+      "sha256": "8d605cc46cdb68bc3ffc4927ac16f371293bc0bd614f23fab0b69f6065384c59",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0106",
+      "asset_id": 632965489
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0107",
+      "bytes": 536870912,
+      "sha256": "d739712b73d7eb06d483c6127a4aed2f54a4b41c57a0f2619d83cde817d0b533",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0107",
+      "asset_id": 632965702
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0108",
+      "bytes": 536870912,
+      "sha256": "c27cd83b561515263aab7867fc9be9b413a8d4154033c7acb90e32f6cdb02084",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0108",
+      "asset_id": 632969900
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0109",
+      "bytes": 536870912,
+      "sha256": "d94cf8d32b2568b60d33a26271ef9e64f324d200333b441c3951320e34f0b834",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0109",
+      "asset_id": 632970212
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0110",
+      "bytes": 536870912,
+      "sha256": "62cd266b6fa6eb44d55fdd583ca2b7163d059b3cce65d08976460b38e8f6888a",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0110",
+      "asset_id": 632974079
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0111",
+      "bytes": 536870912,
+      "sha256": "b54aa26858e4f82105e6a41dfe43911d20660688c3cfd7ec7236c0504f74a296",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0111",
+      "asset_id": 632974201
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0112",
+      "bytes": 536870912,
+      "sha256": "e370a1faa6755168747beba20630c0eac2de59dc8a645c0cd9b4d94cf0ada40c",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0112",
+      "asset_id": 632978038
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0113",
+      "bytes": 536870912,
+      "sha256": "19e110fc1ab725a4ac24ea30c432fd20f48b706c4fddcd823fd4c6bfb302a169",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0113",
+      "asset_id": 632978238
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0114",
+      "bytes": 536870912,
+      "sha256": "f0ff33b1cede6b50fb28afe7eda09b15a2b6eee587b426a7f04f9dc72e84d2ff",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0114",
+      "asset_id": 632982244
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0115",
+      "bytes": 536870912,
+      "sha256": "5610563043d61f15ed7b546805e613225886543b0c057cbf61d71f50b57473f1",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0115",
+      "asset_id": 632981981
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0116",
+      "bytes": 536870912,
+      "sha256": "0a2a8705c89efaa9b997666707fd3a6f00566e31ef99a08a7619c1460da67788",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0116",
+      "asset_id": 632985807
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0117",
+      "bytes": 536870912,
+      "sha256": "2772cd6f8394dcfe3c25d184aff6c55c6149cb513f944371b85b3f0c55d12c8e",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0117",
+      "asset_id": 632986148
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0118",
+      "bytes": 536870912,
+      "sha256": "41f292189da6a4156b4bb52609927645d133232a4012f98c9ae169ab50f907c8",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0118",
+      "asset_id": 632988927
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0119",
+      "bytes": 536870912,
+      "sha256": "1ba13f90fc6b50088564055af28155b779bc6ab64f6f765c5689b245a77a6378",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0119",
+      "asset_id": 632989654
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0120",
+      "bytes": 536870912,
+      "sha256": "bd17cf737a66fc7e91553ac36a07b11ad641c4639ba5f2e54d3ea3d22076991c",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0120",
+      "asset_id": 632992737
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0121",
+      "bytes": 536870912,
+      "sha256": "ad66c3dc7570760001a97599e68472fd500851c5f8ce96fa1344cd17d5432453",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0121",
+      "asset_id": 632993394
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0122",
+      "bytes": 536870912,
+      "sha256": "54eafc12f3b2a6e564711b1c19c7c7ad1103e5d6c1fcd1bb95a8e2a219d20fb7",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0122",
+      "asset_id": 632995862
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0123",
+      "bytes": 536870912,
+      "sha256": "2f59edb754e3b8c2a945c18d3e02ce1180e4be930556e28e7066e94592e5a866",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0123",
+      "asset_id": 632996528
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0124",
+      "bytes": 536870912,
+      "sha256": "52342f3eaf04a7ba149a20b30a6d91741c53af100ba210e5c2c37f1b492aa351",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0124",
+      "asset_id": 632998579
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0125",
+      "bytes": 536870912,
+      "sha256": "d7257d5464ecd128ff6221be45c356e768cacdfbb44babf970056f18752e2d07",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0125",
+      "asset_id": 632999621
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0126",
+      "bytes": 536870912,
+      "sha256": "7ef4347fe9135e1e84e6f85f5863567ae9f6f8f63a1a06c67dacaa1bd849d7a4",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0126",
+      "asset_id": 633002028
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0127",
+      "bytes": 536870912,
+      "sha256": "2e72e01ed660d4128745d239392d142231920a146857f6a63541e3a107cd87c4",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0127",
+      "asset_id": 633003309
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0128",
+      "bytes": 536870912,
+      "sha256": "8f374b589d33ad2025bb3edcfeb4bef142da58db797c4d0d2d43b8b32c5963e8",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0128",
+      "asset_id": 633005010
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0129",
+      "bytes": 536870912,
+      "sha256": "b293444c759de5923bbd30c95f82fb77ea654706d8c9ff27819ac6b6e03aaec9",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0129",
+      "asset_id": 633006522
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0130",
+      "bytes": 536870912,
+      "sha256": "42632564dc21c810416390add2a2966f3cc2a6e63dac315ccc90aade99e6e533",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0130",
+      "asset_id": 633008426
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0131",
+      "bytes": 536870912,
+      "sha256": "37366bd9457b8472211c783bd1061da924825ceee27866f0965f94c6ca431b47",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0131",
+      "asset_id": 633010203
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0132",
+      "bytes": 536870912,
+      "sha256": "1452628d4dbdd505c55485a5c1520c28825af0589069e192c265d9aa38e5ebc0",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0132",
+      "asset_id": 633012467
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0133",
+      "bytes": 536870912,
+      "sha256": "d82a70d01cf38bed0debea54624ee83fa83666061537226f59d92b22122212f8",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0133",
+      "asset_id": 633014032
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0134",
+      "bytes": 536870912,
+      "sha256": "9970b5c7335df7bd059405c68b5f5a15cc738fdd569f46a337a56f8af0eaf4ef",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0134",
+      "asset_id": 633015613
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0135",
+      "bytes": 536870912,
+      "sha256": "d8a7425d900bc7288eb95610ce6ddd9f58dbb6d41c45aa3bfaa3eb246e3ed18a",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0135",
+      "asset_id": 633017286
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0136",
+      "bytes": 536870912,
+      "sha256": "9f27abe907b1afca93a50814799aca8bb172a34ab1ddbe42f8dbf35df2cebd30",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0136",
+      "asset_id": 633020030
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0137",
+      "bytes": 536870912,
+      "sha256": "bf15ed1fa04dfbc4ed1998c0ac2c88fad27b108594a8ba2ec9ba00310ec153fa",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0137",
+      "asset_id": 633021031
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0138",
+      "bytes": 536870912,
+      "sha256": "62f12fdba8ade2d0d85d1684dbb798b140a98ef9410bb35760a398275a20f493",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0138",
+      "asset_id": 633023858
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0139",
+      "bytes": 536870912,
+      "sha256": "bb56ff664631cc28806a7850a692e77a184213dd155e6c4b80f34d3f09e9b457",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0139",
+      "asset_id": 633025187
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0140",
+      "bytes": 536870912,
+      "sha256": "40be5ce773e33a015503d6432005b4bb9123bd8fc26e648bf4d2884283ee538d",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0140",
+      "asset_id": 633027354
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0141",
+      "bytes": 536870912,
+      "sha256": "47c1d66ab4df5e8bf21726af10ed10718d284a93561812956531ed9c15968791",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0141",
+      "asset_id": 633028948
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0142",
+      "bytes": 536870912,
+      "sha256": "98d8449a0d1ae1e0afde7452a7d2aff0eec93ddc5ae9b544817ef202e1f7fbf8",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0142",
+      "asset_id": 633031324
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0143",
+      "bytes": 536870912,
+      "sha256": "9324c28b85790a922659e6cccc8f74798c382b025f95301baeb9f9c4ddf0bae9",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0143",
+      "asset_id": 633033296
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0144",
+      "bytes": 536870912,
+      "sha256": "7f2dc1f88e7de97061f72854acdd9f368c254e55fb3260fde46261d969527d78",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0144",
+      "asset_id": 633035364
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0145",
+      "bytes": 536870912,
+      "sha256": "2bb5f2b766cccc38009f2e266fd40504e6498574ecc52e6d950c0775a4a7fdde",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0145",
+      "asset_id": 633036983
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0146",
+      "bytes": 536870912,
+      "sha256": "eee5378899b44938fef9045633337202d827d58873868436d47a04e51043eb04",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0146",
+      "asset_id": 633038674
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0147",
+      "bytes": 536870912,
+      "sha256": "96473fadb9ff0e984d8f59019c10a784a332404480a6625b6b81005f8a35ec12",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0147",
+      "asset_id": 633040637
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0148",
+      "bytes": 536870912,
+      "sha256": "f72536f9903f2f1b287c9a01f4fe529fce4f927601bbbfaae910a9b247a7c92c",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0148",
+      "asset_id": 633041986
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0149",
+      "bytes": 536870912,
+      "sha256": "d6d90c3033c98fd24a8e24c64f7c06bcc6a6b38f94708cdf38e92c7a39adde0b",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0149",
+      "asset_id": 633044415
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights.tar.gz.part0150",
+      "bytes": 338859560,
+      "sha256": "c161d48a033be26cb26da085b57477521b61913c1d7857893132180ef33da17b",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights.tar.gz.part0150",
+      "asset_id": 633046048
+    },
+    {
+      "category": "model_weights",
+      "name": "model_weights_files.jsonl",
+      "bytes": 324982,
+      "sha256": "2ca5fc14ffd818797aef59366cb955a0abd898154ade8fecdb3d13a47cbb87e7",
+      "download_url": "https://github.com/karczewskitessitore-design/medical-research-code/releases/download/research-assets-20261012-model-weights-v2/model_weights_files.jsonl",
+      "asset_id": 633047766
+    }
+  ]
+}
