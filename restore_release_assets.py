@@ -4,6 +4,7 @@ import hashlib
 import io
 import json
 from pathlib import Path
+import shutil
 import tarfile
 
 
@@ -74,7 +75,13 @@ def restore(parts_dir, category, output, checksum_file):
                     raise ValueError('Unexpected archive entry: ' + member.name)
                 (output / member.name).resolve().relative_to(output)
                 if member.islnk():
-                    (output / member.linkname).resolve().relative_to(output)
+                    link_source = (output / member.linkname).resolve()
+                    link_source.relative_to(output)
+                    target = output / member.name
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    # Archive deduplication should not couple two restored environments.
+                    shutil.copy2(link_source, target)
+                    continue
                 if hasattr(tarfile, 'data_filter'):
                     archive.extract(member, path=output, filter='data')
                 else:

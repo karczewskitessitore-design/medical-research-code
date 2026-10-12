@@ -6,15 +6,15 @@
 
 ## 保存与去重方式
 
-每类归档保留 `E_01/` 和 `D_01/` 两个来源目录。内容完全相同的文件在 tar 内使用硬链接去重；解压后，两份来源路径都能恢复。每类附带 `*_files.jsonl`，记录文件路径、大小、SHA-256 和重复文件对应关系。
+每类归档保留 `E_01/` 和 `D_01/` 两个来源目录。内容完全相同的文件在 tar 内使用硬链接去重；本仓库的还原程序将其恢复为独立文件，避免修改一份环境时影响另一份。每类附带 `*_files.jsonl`，记录文件路径、大小、SHA-256 和重复文件对应关系。
 
 归档按 512 MiB 分卷，文件名为 `<category>.tar.gz.part0001`、`part0002` 等。每个分卷的 SHA-256 位于 Release 说明中。请下载同一类的所有分卷，用本仓库的 `restore_release_assets.py` 校验并直接解压；无需先生成一个巨大的合并文件。
 
 ```powershell
-python restore_release_assets.py --parts-dir E:\Downloads\research-assets --category image_data --output E:\RestoredResearch --checksums release_assets.json
+python restore_release_assets.py --parts-dir E:\Downloads\research-assets --category image_data --output E:\RestoredResearch\image_data --checksums release_assets.json
 ```
 
-依次将 `--category` 替换为 `model_weights`、`environment`。输出目录必须为空，避免覆盖已有研究文件。清单中的路径与原始文件 SHA-256 可以用于后续核查。
+对另外两类分别将 `--category` 替换为 `model_weights`、`environment`，并使用各自的空输出目录。输出目录必须为空，避免覆盖已有研究文件。清单中的路径与原始文件 SHA-256 可以用于后续核查。
 
 ## 数据来源与许可证
 
